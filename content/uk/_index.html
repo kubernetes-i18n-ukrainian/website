@@ -1,5 +1,11 @@
 ---
+<!--
+title: "Production-Grade Container Orchestration"
+-->
 title: "Довершена система оркестрації контейнерів"
+<!--
+abstract: "Automated container deployment, scaling, and management"
+-->
 abstract: "Автоматичне розгортання, масштабування і управління контейнерами"
 cid: home
 ---
@@ -9,28 +15,45 @@ cid: home
 
 {{< blocks/section id="oceanNodes" >}}
 {{% blocks/feature image="flower" %}}
+<!--
+### [Kubernetes (K8s)]({{< relref "/docs/concepts/overview/what-is-kubernetes" >}}) is an open-source system for automating deployment, scaling, and management of containerized applications.
+-->
 ### [Kubernetes (K8s)]({{< relref "/docs/concepts/overview/what-is-kubernetes" >}}) - це система з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками.
 
+<!--It groups containers that make up an application into logical units for easy management and discovery. Kubernetes builds upon [15 years of experience of running production workloads at Google](http://queue.acm.org/detail.cfm?id=2898444), combined with best-of-breed ideas and practices from the community.
+-->
 Вона об'єднує контейнери, що утворюють застосунок, у логічні елементи для легкого управління і виявлення. В основі Kubernetes - [15 років досвіду запуску і виконання застосунків у продуктивних середовищах Google](http://queue.acm.org/detail.cfm?id=2898444), а також найкращі ідеї і практики від спільноти.
 {{% /blocks/feature %}}
 
 {{% blocks/feature image="scalable" %}}
+<!--#### Planet Scale
+-->
 #### Глобальне масштабування
 
-Заснований на тих самих принципах, що дозволяють Google запускати мільярди контейнерів щотижня, Kubernetes масштабується, не потребуючи збільшення штату ваших інженерів з експлуатації.
+<!--Designed on the same principles that allows Google to run billions of containers a week, Kubernetes can scale without increasing your ops team.
+-->
+Заснований на тих самих принципах, завдяки яким Google запускає мільярди контейнерів щотижня, Kubernetes масштабується без потреби збільшення вашого штату інженерів з експлуатації.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature image="blocks" %}}
+<!--#### Never Outgrow
+-->
 #### Невичерпна функціональність
 
-Локальне тестування чи підтримка корпорації світового рівня - можливості Kubernetes зростають відповідно до ваших потреб, щоб забезпечити регулярну і легку доставку ваших застосунків за будь-яких умов.
+<!--Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you to deliver your applications consistently and easily no matter how complex your need is.
+-->
+Де б не був розгорнутий Kubernetes, на локальному комп'ютері чи у корпорації світового рівня, його можливості динамічно зростають відповідно до ваших потреб, щоб забезпечити регулярну і легку доставку ваших застосунків за будь-яких умов.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature image="suitcase" %}}
+<!--#### Run Anywhere
+-->
 #### Універсальність запуску
 
+<!--Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly move workloads to where it matters to you.
+-->
 Kubernetes - проект з відкритим вихідним кодом. Він дозволяє скористатися перевагами локальної, гібридної чи хмарної інфраструктури, щоби легко переміщати застосунки туди, куди вам потрібно.
 
 {{% /blocks/feature %}}
@@ -39,7 +62,11 @@ Kubernetes - проект з відкритим вихідним кодом. В�
 
 {{< blocks/section id="video" background-image="kub_video_banner_homepage" >}}
 <div class="light-text">
+<!--<h2>The Challenges of Migrating 150+ Microservices to Kubernetes</h2>
+-->
 <h2>Проблеми міграції 150+ мікросервісів у Kubernetes</h2>
+        <!--<p>By Sarah Wells, Technical Director for Operations and Reliability, Financial Times</p>
+        -->
         <p>Сара Уеллз, технічний директор з експлуатації і безпеки роботи, Financial Times</p>
         <button id="desktopShowVideoButton" onclick="kub.showVideo()">Переглянути відео</button>
         <br>
