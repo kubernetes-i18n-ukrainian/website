@@ -5,7 +5,7 @@ title: EndpointSlices
 feature:
   title: EndpointSlices
   description: >
-    Динамічне відстеження вхідних мережевих точок у кластері Kubernetes.
+    Динамічне відстеження мережевих вузлів у кластері Kubernetes.
 
 content_template: templates/concept
 weight: 10

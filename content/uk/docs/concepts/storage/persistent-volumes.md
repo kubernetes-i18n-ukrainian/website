@@ -6,9 +6,9 @@ reviewers:
 - msau42
 title: Persistent Volumes
 feature:
-  title: Оркестрація сховища
+  title: Оркестрація сховищем
   description: >
-    Автоматично монтує систему збереження даних на ваш вибір: з локального носія даних, із хмарного сховища від провайдера публічних хмарних сервісів, як-от <a href="https://cloud.google.com/storage/">GCP</a> чи <a href="https://aws.amazon.com/products/storage/">AWS</a>, або з мережевої системи збереження даних, наприклад NFS, iSCSI, Gluster, Ceph, Cinder чи Flocker.
+    Автоматично монтує систему збереження даних на ваш вибір: з локального носія даних, із хмарного сховища від провайдера публічних хмарних сервісів, як-от <a href="https://cloud.google.com/storage/">GCP</a> чи <a href="https://aws.amazon.com/products/storage/">AWS</a>, або з мережевого сховища, такого як: NFS, iSCSI, Gluster, Ceph, Cinder чи Flocker.
 
 content_template: templates/concept
 weight: 20
