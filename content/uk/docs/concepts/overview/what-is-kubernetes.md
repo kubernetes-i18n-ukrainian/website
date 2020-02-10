@@ -14,19 +14,19 @@ card:
 <!--
 This page is an overview of Kubernetes.
 -->
-Ця сторінка представляє собою поверхневий огляд Kubernetes.
+Ця сторінка являє собою узагальнений огляд Kubernetes.
 {{% /capture %}}
 
 {{% capture body %}}
 <!--
 Kubernetes is a portable, extensible, open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available.
 -->
-Kubernetes це платформа з відкритим джерельним кодом для управління контейнеризованими робочим навантаженнями та супутніми службами. Її основні властивості - портабельність, розширюваність, успішне використання декларативної конфігурації та автоматизації. Вона має гігантську, швидкопрогресуючу екосистему.
+Kubernetes - це платформа з відкритим джерельним кодом для управління контейнеризованими робочим навантаженнями та супутніми службами. Її основні властивості - кросплатформенність, розширюваність, успішне використання декларативної конфігурації та автоматизації. Вона має гігантську, швидкопрогресуючу екосистему.
 
 <!--
 The name Kubernetes originates from Greek, meaning helmsman or pilot. Google open-sourced the Kubernetes project in 2014. Kubernetes builds upon a [decade and a half of experience that Google has with running production workloads at scale](https://ai.google/research/pubs/pub43438), combined with best-of-breed ideas and practices from the community.
 -->
-Назва Kubernetes походить з грецької та несе значення - кеманич або пілот. Google відкрив доступ джерельних кодів проекту Kubernetes у 2014 році. Kubernetes побудовано використовуючи [фундацію п'ятнадцятилітнього досвіду, що Google отримав оперуючи масштабними робочим навантаженнями](https://ai.google/research/pubs/pub43438) у купі з найкращими у своєму класі ідеями та практиками що може запропонувати спільнота.
+Назва Kubernetes походить з грецької та означає керманич, або пілот. Google відкрив доступ до джерельних кодів проекту Kubernetes у 2014 році. Kubernetes побудовано [на базі п'ятнадцятилітнього досвіду, що Google отримав, оперуючи масштабними робочим навантаженнями](https://ai.google/research/pubs/pub43438) у купі з найкращими у своєму класі ідеями та практиками, які може запропонувати спільнота.
 
 <!--
 ## Going back in time
@@ -36,7 +36,7 @@ The name Kubernetes originates from Greek, meaning helmsman or pilot. Google ope
 <!--
 Let's take a look at why Kubernetes is so useful by going back in time.
 -->
-Давайте повернемось назад у часі і дізнаємось завдяки чому Kubernetes став таким корисним.
+Давайте повернемось назад у часі та дізнаємось, завдяки чому Kubernetes став таким корисним.
 
 ![Deployment evolution](/images/docs/Container_Evolution.svg)
 
@@ -57,7 +57,7 @@ Virtualization allows better utilization of resources in a physical server and a
 <!--
 Each VM is a full machine running all the components, including its own operating system, on top of the virtualized hardware.
 -->
-Кожна VM представляла собою повноцінну машину з усіма компонентами, включаючи операційну систему, поверх віртуалізаційного апаратного забезпечення.
+Кожна VM являє собою повноцінну машину з усіма компонентами, включаючи операційну систему, поверх віртуалізаційного апаратного забезпечення.
 
 <!--
 **Container deployment era:** Containers are similar to VMs, but they have relaxed isolation properties to share the Operating System (OS) among the applications. Therefore, containers are considered lightweight. Similar to a VM, a container has its own filesystem, CPU, memory, process space, and more. As they are decoupled from the underlying infrastructure, they are portable across clouds and OS distributions.
