@@ -17,11 +17,11 @@ menu:
     title: "Документація"
     weight: 20
     #post: >
-      <p>Learn how to use Kubernetes with conceptual, tutorial, and reference documentation. You can even <a href="/editdocs/" data-auto-burger-exclude>help contribute to the docs</a>!</p>
+    #  <p>Learn how to use Kubernetes with conceptual, tutorial, and reference documentation. You can even <a href="/editdocs/" data-auto-burger-exclude>help contribute to the docs</a>!</p>
     post: >
       <p>Дізнайтеся про основи роботи з Kubernetes, використовуючи схеми, навчальну та довідкову документацію. Ви можете навіть <a href="/editdocs/" data-auto-burger-exclude>зробити свій внесок у документацію</a>!</p>
 #overview: >
-  Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
+#  Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 overview: >
   Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Це відкритий проект під керівництвом Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 cards:
