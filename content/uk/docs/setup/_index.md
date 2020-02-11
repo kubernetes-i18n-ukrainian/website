@@ -13,9 +13,9 @@ card:
   weight: 20
   anchors:
   - anchor: "#навчальне-середовище"
-    title: Навчальне-середовище
+    title: Навчальне середовище
   - anchor: "#продуктивне-середовище"
-    title: Продуктивне-середовище
+    title: Продуктивне середовище
 ---
 
 {{% capture overview %}}
@@ -42,7 +42,7 @@ card:
 
 <!--## Learning environment
 -->
-## Навчальне середовище
+## Навчальне середовище {#навчальне-середовище}
 
 <!--If you're learning Kubernetes, use the Docker-based solutions: tools supported by the Kubernetes community, or tools in the ecosystem to set up a Kubernetes cluster on a local machine.
 -->
@@ -61,7 +61,7 @@ card:
 |                     | [k3s](https://k3s.io)|
 
 
-## Продуктивне середовище
+## Продуктивне середовище {#продуктивне-середовище}
 
 <!--When evaluating a solution for a production environment, consider which aspects of operating a Kubernetes cluster (or _abstractions_) you want to manage yourself or offload to a provider.
 -->
