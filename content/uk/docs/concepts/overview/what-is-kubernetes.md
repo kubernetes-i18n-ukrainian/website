@@ -2,7 +2,7 @@
 reviewers:
 - bgrant0607
 - mikedanese
-title: Що ж таке Kubernetes?
+title: Що таке Kubernetes?
 content_template: templates/concept
 weight: 10
 card:
