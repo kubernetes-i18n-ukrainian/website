@@ -3,9 +3,12 @@ title: Managing Compute Resources for Containers
 content_template: templates/concept
 weight: 20
 feature:
-  title: Automatic bin packing
+  # title: Automatic bin packing
+  title: Автоматичне пакування у контейнери
+  # description: >
+  #   Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
   description: >
-    Automatically places containers based on their resource requirements and other constraints, while not sacrificing availability. Mix critical and best-effort workloads in order to drive up utilization and save even more resources.
+    Автоматичне розміщення контейнерів з огляду на їхні потреби у ресурсах та інші обмеження, при цьому не поступаючись доступністю. Поєднання критичних і "найкращих з можливих" робочих навантажень для ефективнішого використання і більшого заощадження ресурсів.
 ---
 
 {{% capture overview %}}
@@ -391,7 +394,7 @@ spec:
 ### How Pods with ephemeral-storage requests are scheduled
 
 When you create a Pod, the Kubernetes scheduler selects a node for the Pod to
-run on. Each node has a maximum amount of local ephemeral storage it can provide for Pods. For more information, see ["Node Allocatable"](/docs/tasks/administer-cluster/reserve-compute-resources/#node-allocatable). 
+run on. Each node has a maximum amount of local ephemeral storage it can provide for Pods. For more information, see ["Node Allocatable"](/docs/tasks/administer-cluster/reserve-compute-resources/#node-allocatable).
 
 The scheduler ensures that the sum of the resource requests of the scheduled Containers is less than the capacity of the node.
 
