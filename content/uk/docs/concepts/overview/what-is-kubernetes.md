@@ -145,7 +145,7 @@ Kubernetes дозволяє вам зберігати та керувати чу
 ## What Kubernetes is not
 -->
 
-## Чим Kubernetes не є
+## Чим не є Kubernetes
 
 <!--
 Kubernetes is not a traditional, all-inclusive PaaS (Platform as a Service) system. Since Kubernetes operates at the container level rather than at the hardware level, it provides some generally applicable features common to PaaS offerings, such as deployment, scaling, load balancing, logging, and monitoring. However, Kubernetes is not monolithic, and these default solutions are optional and pluggable. Kubernetes provides the building blocks for building developer platforms, but preserves user choice and flexibility where it is important.
