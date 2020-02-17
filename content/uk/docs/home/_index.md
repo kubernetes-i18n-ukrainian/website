@@ -55,7 +55,7 @@ cards:
   #name: tasks
 - name: задачі
   #title: "Learn how to use Kubernetes"
-  title: "Дізнатися, як користуватись Kubernetes"
+  title: "Дізнайтеся, як користуватись Kubernetes"
   #description: "Look up common tasks and how to perform them using a short sequence of steps."
   description: "Ознайомтеся з типовими задачами і шляхами їх виконання за допомогою короткого алгоритму дій."
   #button: "View Tasks"
