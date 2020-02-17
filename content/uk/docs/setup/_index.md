@@ -75,7 +75,7 @@ card:
 -->
 На діаграмі нижче показані можливі абстракції кластера Kubernetes із зазначенням, які з них потребують самостійного управління, а які можуть бути керовані провайдером.
 
-Рішення для продуктивного середовища![Рішення для продуктивного середовища](/images/docs/KubernetesSolutions.svg)
+Рішення для прод оточення![Рішення для прод оточення](/images/docs/KubernetesSolutions.svg)
 
 {{< table caption="Таблиця рішень для продуктивного середовища містить перелік провайдерів і їх технологій." >}}
 <!--The following production environment solutions table lists the providers and the solutions that they offer.
