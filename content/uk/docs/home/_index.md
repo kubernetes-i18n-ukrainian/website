@@ -44,7 +44,7 @@ cards:
   button: "Переглянути навчальні матеріали"
   button_path: "/docs/tutorials"
   #name: setup
-- name: настройка
+- name: налаштування
   #title: "Set up a cluster"
   title: "Настроїти кластер"
   #description: "Get Kubernetes running based on your resources and needs."
