@@ -46,7 +46,7 @@ cards:
   #name: setup
 - name: налаштування
   #title: "Set up a cluster"
-  title: "Настроїти кластер"
+  title: "Налаштування кластера"
   #description: "Get Kubernetes running based on your resources and needs."
   description: "Розгорніть Kubernetes з урахуванням власних ресурсів і потреб."
   #button: "Set up Kubernetes"
@@ -75,7 +75,7 @@ cards:
   #title: Contribute to the docs
   title: Зробити внесок у документацію
   #description: Anyone can contribute, whether you’re new to the project or you’ve been around a long time.
-  description: Зробити свій внесок може будь-хто - ті, хто нещодавно долучилися до проекту, і ті, хто працюють над ним довгий час.
+  description: Будь-хто може зробити свій внесок, незалежно від того, чи ви нещодавно долучилися до проекту, чи працюєте над ним вже довгий час.
   #button: Contribute to the docs
   button: Зробити внесок у документацію
   button_path: /docs/contribute
