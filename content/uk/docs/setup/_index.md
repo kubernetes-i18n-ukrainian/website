@@ -26,7 +26,7 @@ card:
 
 <!--Different Kubernetes solutions meet different requirements: ease of maintenance, security, control, available resources, and expertise required to operate and manage a cluster.
 -->
-Різні технологічні рішення Kubernetes задовольняють різні потреби: легкість в експлуатації, безпека, система контролю, наявні ресурси та компетентність, необхідна для управління кластером.
+Різні рішення Kubernetes відповідають різним вимогам: легкість в експлуатації, безпека, система контролю, наявні ресурси та досвід, необхідний для управління кластером.
 
 <!--You can deploy a Kubernetes cluster on a local machine, cloud, on-prem datacenter; or choose a managed Kubernetes cluster. You can also create custom solutions across a wide range of cloud providers, or bare metal environments.
 -->
