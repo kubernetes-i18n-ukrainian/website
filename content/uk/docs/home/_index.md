@@ -73,7 +73,7 @@ cards:
   #name: contribute
 - name: внесок
   #title: Contribute to the docs
-  title: Внесок у документацію
+  title: Зробити внесок у документацію
   #description: Anyone can contribute, whether you’re new to the project or you’ve been around a long time.
   description: Зробити свій внесок може будь-хто - ті, хто нещодавно долучилися до проекту, і ті, хто працюють над ним довгий час.
   #button: Contribute to the docs
