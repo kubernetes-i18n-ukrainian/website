@@ -42,7 +42,7 @@ card:
 
 <!--## Learning environment
 -->
-## Навчальне середовище {#навчальне-середовище}
+## Навчальне оточення {#навчальне-оточення}
 
 <!--If you're learning Kubernetes, use the Docker-based solutions: tools supported by the Kubernetes community, or tools in the ecosystem to set up a Kubernetes cluster on a local machine.
 -->
