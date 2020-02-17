@@ -30,7 +30,7 @@ card:
 
 <!--You can deploy a Kubernetes cluster on a local machine, cloud, on-prem datacenter; or choose a managed Kubernetes cluster. You can also create custom solutions across a wide range of cloud providers, or bare metal environments.
 -->
-Ви можете розгорнути кластер Kubernetes на робочому комп’ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Можна також створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на платформах без операційної системи.
+Ви можете розгорнути кластер Kubernetes на робочому комп’ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
 
 <!--More simply, you can create a Kubernetes cluster in learning and production environments.
 -->
