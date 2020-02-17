@@ -90,5 +90,5 @@ cards:
   #title: About the documentation
   title: Про документацію
   #description: This website contains documentation for the current and previous 4 versions of Kubernetes.
-  description: Цей вебсайт містить документацію по актуальній версії Kubernetes і чотирьох попередніх.
+  description: Цей вебсайт містить документацію по актуальній і чотирьох попередніх версіях Kubernetes.
 ---
