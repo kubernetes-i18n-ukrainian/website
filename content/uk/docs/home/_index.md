@@ -50,7 +50,7 @@ cards:
   #description: "Get Kubernetes running based on your resources and needs."
   description: "Розгорніть Kubernetes з урахуванням власних ресурсів і потреб."
   #button: "Set up Kubernetes"
-  button: "Настроїти Kubernetes"
+  button: "Налаштувати Kubernetes"
   button_path: "/docs/setup"
   #name: tasks
 - name: задачі
