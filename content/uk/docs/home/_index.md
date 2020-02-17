@@ -37,7 +37,7 @@ cards:
   #name: tutorials
 - name: навчальні матеріали
   #title: "Try Kubernetes"
-  title: "Спробувати Kubernetes"
+  title: "Спробуйте Kubernetes"
   #description: "Follow tutorials to learn how to deploy applications in Kubernetes."
   description: "Дізнайтеся із навчальних матеріалів, як розгортати застосунки в Kubernetes."
   #button: "View Tutorials"
