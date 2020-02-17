@@ -22,7 +22,7 @@ card:
 
 <!--This section covers different options to set up and run Kubernetes.
 -->
-У цьому розділі розглянуто різні варіанти настройки і запуску Kubernetes.
+У цьому розділі розглянуто різні варіанти налаштування і запуску Kubernetes.
 
 <!--Different Kubernetes solutions meet different requirements: ease of maintenance, security, control, available resources, and expertise required to operate and manage a cluster.
 -->
