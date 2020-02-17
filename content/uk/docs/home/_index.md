@@ -23,7 +23,7 @@ menu:
 #overview: >
   Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 overview: >
-  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Це відкритий проект під керівництвом Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
+  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Цей проект розробляється під егідою Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 cards:
   #name: concepts
 - name: концепції
