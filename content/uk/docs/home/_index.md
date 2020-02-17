@@ -66,7 +66,7 @@ cards:
   #title: Look up reference information
   title: Переглянути довідкову інформацію
   #description: Browse terminology, command line syntax, API resource types, and setup tool documentation.
-  description: Ознайомтеся з термінологією, синтаксисом командного рядка, типами ресурсів API і документацією з настройки інструментів.
+  description: Ознайомтеся з термінологією, синтаксисом командного рядка, типами ресурсів API і документацією з налаштування інструментів.
   #button: View Reference
   button: Переглянути довідкову інформацію
   button_path: /docs/reference
