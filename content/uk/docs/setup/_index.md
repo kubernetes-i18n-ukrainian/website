@@ -46,7 +46,7 @@ card:
 
 <!--If you're learning Kubernetes, use the Docker-based solutions: tools supported by the Kubernetes community, or tools in the ecosystem to set up a Kubernetes cluster on a local machine.
 -->
-Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, що підтримуються спільнотою Kubernetes, або інструменти з сімейства проектів Kubernetes для настройки кластера на локальному комп’ютері.
+Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, підтримувані спільнотою Kubernetes, або інші інструменти з сімейства проектів для налаштування Kubernetes кластера на локальному комп’ютері.
 
 {{< table caption="Таблиця інструментів для локального розгортання Kubernetes, які підтримуються спільнотою або входять до сімейства проектів Kubernetes." >}}
 
@@ -65,7 +65,7 @@ card:
 
 <!--When evaluating a solution for a production environment, consider which aspects of operating a Kubernetes cluster (or _abstractions_) you want to manage yourself or offload to a provider.
 -->
-Обираючи рішення для продуктивного середовища, визначіться, якими з функціональних складових (або абстракцій) кластера Kubernetes ви хочете керувати самі, а управління якими - доручити провайдеру.
+Обираючи рішення для проду, визначіться, якими з функціональних складових (або абстракцій) кластера Kubernetes ви хочете керувати самі, а управління якими - доручити провайдеру.
 
 <!--Some possible abstractions of a Kubernetes cluster are {{< glossary_tooltip text="applications" term_id="applications" >}}, {{< glossary_tooltip text="data plane" term_id="data-plane" >}}, {{< glossary_tooltip text="control plane" term_id="control-plane" >}}, {{< glossary_tooltip text="cluster infrastructure" term_id="cluster-infrastructure" >}}, and {{< glossary_tooltip text="cluster operations" term_id="cluster-operations" >}}.
 -->
