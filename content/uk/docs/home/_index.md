@@ -30,7 +30,7 @@ cards:
   #title: "Understand the basics"
   title: "Розуміння основ"
   #description: "Learn about Kubernetes and its fundamental concepts."
-  description: "Детальніше про Kubernetes і його фундаментальні концепції."
+  description: "Дізнатися про Kubernetes і його фундаментальні концепції."
   #button: "Learn Concepts"
   button: "Дізнатися про концепції"
   button_path: "/docs/concepts"
