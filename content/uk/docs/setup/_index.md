@@ -61,7 +61,7 @@ card:
 |                     | [k3s](https://k3s.io)|
 
 
-## Продуктивне середовище {#продуктивне-середовище}
+## Прод оточення {#прод-оточення}
 
 <!--When evaluating a solution for a production environment, consider which aspects of operating a Kubernetes cluster (or _abstractions_) you want to manage yourself or offload to a provider.
 -->
