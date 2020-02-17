@@ -9,7 +9,7 @@ main_menu: true
 weight: 20
 content_template: templates/concept
 card:
-  name: настройка
+  name: налаштування
   weight: 20
   anchors:
   - anchor: "#навчальне-середовище"
