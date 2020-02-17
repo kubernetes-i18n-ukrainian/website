@@ -77,7 +77,7 @@ card:
 
 Рішення для прод оточення![Рішення для прод оточення](/images/docs/KubernetesSolutions.svg)
 
-{{< table caption="Таблиця рішень для продуктивного середовища містить перелік провайдерів і їх технологій." >}}
+{{< table caption="Таблиця рішень для прод оточення містить перелік провайдерів і їх технологій." >}}
 <!--The following production environment solutions table lists the providers and the solutions that they offer.
 -->
 Таблиця рішень для продуктивного середовища містить перелік провайдерів і технологій, які вони пропонують.
