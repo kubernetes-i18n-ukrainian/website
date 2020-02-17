@@ -34,7 +34,7 @@ card:
 
 <!--More simply, you can create a Kubernetes cluster in learning and production environments.
 -->
-Простіше кажучи, ви можете створити кластер Kubernetes у навчальному або в продуктивному середовищі.
+Простіше кажучи, ви можете створити кластер Kubernetes у навчальному і в прод оточеннях.
 
 {{% /capture %}}
 
