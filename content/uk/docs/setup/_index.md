@@ -9,32 +9,32 @@ main_menu: true
 weight: 20
 content_template: templates/concept
 card:
-  name: настройка
+  name: налаштування
   weight: 20
   anchors:
   - anchor: "#навчальне-середовище"
     title: Навчальне середовище
-  - anchor: "#продуктивне-середовище"
-    title: Продуктивне середовище
+  - anchor: "#прод-оточення"
+    title: Прод оточення
 ---
 
 {{% capture overview %}}
 
 <!--This section covers different options to set up and run Kubernetes.
 -->
-У цьому розділі розглянуто різні варіанти настройки і запуску Kubernetes.
+У цьому розділі розглянуто різні варіанти налаштування і запуску Kubernetes.
 
 <!--Different Kubernetes solutions meet different requirements: ease of maintenance, security, control, available resources, and expertise required to operate and manage a cluster.
 -->
-Різні технологічні рішення Kubernetes задовольняють різні потреби: легкість в експлуатації, безпека, система контролю, наявні ресурси та компетентність, необхідна для управління кластером.
+Різні рішення Kubernetes відповідають різним вимогам: легкість в експлуатації, безпека, система контролю, наявні ресурси та досвід, необхідний для управління кластером.
 
 <!--You can deploy a Kubernetes cluster on a local machine, cloud, on-prem datacenter; or choose a managed Kubernetes cluster. You can also create custom solutions across a wide range of cloud providers, or bare metal environments.
 -->
-Ви можете розгорнути кластер Kubernetes на робочому комп’ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Можна також створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на платформах без операційної системи.
+Ви можете розгорнути кластер Kubernetes на робочому комп’ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
 
 <!--More simply, you can create a Kubernetes cluster in learning and production environments.
 -->
-Простіше кажучи, ви можете створити кластер Kubernetes у навчальному або в продуктивному середовищі.
+Простіше кажучи, ви можете створити кластер Kubernetes у навчальному і в прод оточеннях.
 
 {{% /capture %}}
 
@@ -42,11 +42,11 @@ card:
 
 <!--## Learning environment
 -->
-## Навчальне середовище {#навчальне-середовище}
+## Навчальне оточення {#навчальне-оточення}
 
 <!--If you're learning Kubernetes, use the Docker-based solutions: tools supported by the Kubernetes community, or tools in the ecosystem to set up a Kubernetes cluster on a local machine.
 -->
-Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, що підтримуються спільнотою Kubernetes, або інструменти з сімейства проектів Kubernetes для настройки кластера на локальному комп’ютері.
+Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, підтримувані спільнотою Kubernetes, або інші інструменти з сімейства проектів для налаштування Kubernetes кластера на локальному комп’ютері.
 
 {{< table caption="Таблиця інструментів для локального розгортання Kubernetes, які підтримуються спільнотою або входять до сімейства проектів Kubernetes." >}}
 
@@ -61,11 +61,11 @@ card:
 |                     | [k3s](https://k3s.io)|
 
 
-## Продуктивне середовище {#продуктивне-середовище}
+## Прод оточення {#прод-оточення}
 
 <!--When evaluating a solution for a production environment, consider which aspects of operating a Kubernetes cluster (or _abstractions_) you want to manage yourself or offload to a provider.
 -->
-Обираючи рішення для продуктивного середовища, визначіться, якими з функціональних складових (або абстракцій) кластера Kubernetes ви хочете керувати самі, а управління якими - доручити провайдеру.
+Обираючи рішення для проду, визначіться, якими з функціональних складових (або абстракцій) кластера Kubernetes ви хочете керувати самі, а управління якими - доручити провайдеру.
 
 <!--Some possible abstractions of a Kubernetes cluster are {{< glossary_tooltip text="applications" term_id="applications" >}}, {{< glossary_tooltip text="data plane" term_id="data-plane" >}}, {{< glossary_tooltip text="control plane" term_id="control-plane" >}}, {{< glossary_tooltip text="cluster infrastructure" term_id="cluster-infrastructure" >}}, and {{< glossary_tooltip text="cluster operations" term_id="cluster-operations" >}}.
 -->
@@ -75,12 +75,12 @@ card:
 -->
 На діаграмі нижче показані можливі абстракції кластера Kubernetes із зазначенням, які з них потребують самостійного управління, а які можуть бути керовані провайдером.
 
-Рішення для продуктивного середовища![Рішення для продуктивного середовища](/images/docs/KubernetesSolutions.svg)
+Рішення для прод оточення![Рішення для прод оточення](/images/docs/KubernetesSolutions.svg)
 
-{{< table caption="Таблиця рішень для продуктивного середовища містить перелік провайдерів і їх технологій." >}}
+{{< table caption="Таблиця рішень для прод оточення містить перелік провайдерів і їх технологій." >}}
 <!--The following production environment solutions table lists the providers and the solutions that they offer.
 -->
-Таблиця рішень для продуктивного середовища містить перелік провайдерів і технологій, які вони пропонують.
+Таблиця рішень для прод оточення містить перелік провайдерів і технологій, які вони пропонують.
 
 |Провайдери  | Керований сервіс | Хмара "під ключ"  | Локальний дата-центр  | Під замовлення (хмара) | Під замовлення (локальні ВМ)| Під замовлення (сервери без ОС) |
 | ---------  | ------  | ------         | ------         | ------         | ------                  | -----               |

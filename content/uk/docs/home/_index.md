@@ -23,41 +23,41 @@ menu:
 #overview: >
 #  Kubernetes is an open source container orchestration engine for automating deployment, scaling, and management of containerized applications. The open source project is hosted by the Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 overview: >
-  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Це відкритий проект під керівництвом Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
+  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Цей проект розробляється під егідою Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 cards:
   #name: concepts
 - name: концепції
   #title: "Understand the basics"
   title: "Розуміння основ"
   #description: "Learn about Kubernetes and its fundamental concepts."
-  description: "Детальніше про Kubernetes і його фундаментальні концепції."
+  description: "Дізнатися про Kubernetes і його фундаментальні концепції."
   #button: "Learn Concepts"
   button: "Дізнатися про концепції"
   button_path: "/docs/concepts"
   #name: tutorials
 - name: навчальні матеріали
   #title: "Try Kubernetes"
-  title: "Спробувати Kubernetes"
+  title: "Спробуйте Kubernetes"
   #description: "Follow tutorials to learn how to deploy applications in Kubernetes."
   description: "Дізнайтеся із навчальних матеріалів, як розгортати застосунки в Kubernetes."
   #button: "View Tutorials"
   button: "Переглянути навчальні матеріали"
   button_path: "/docs/tutorials"
   #name: setup
-- name: настройка
+- name: налаштування
   #title: "Set up a cluster"
-  title: "Настроїти кластер"
+  title: "Налаштування кластера"
   #description: "Get Kubernetes running based on your resources and needs."
   description: "Розгорніть Kubernetes з урахуванням власних ресурсів і потреб."
   #button: "Set up Kubernetes"
-  button: "Настроїти Kubernetes"
+  button: "Налаштувати Kubernetes"
   button_path: "/docs/setup"
   #name: tasks
 - name: задачі
   #title: "Learn how to use Kubernetes"
-  title: "Дізнатися, як користуватись Kubernetes"
+  title: "Дізнайтеся, як користуватись Kubernetes"
   #description: "Look up common tasks and how to perform them using a short sequence of steps."
-  description: "Ознайомтеся з типовими задачами і шляхами їх виконання за допомогою короткого алгоритму дій."
+  description: "Ознайомтеся з типовими задачами і способами їх виконання за допомогою короткого алгоритму дій."
   #button: "View Tasks"
   button: "Переглянути задачі"
   button_path: "/docs/tasks"
@@ -66,16 +66,16 @@ cards:
   #title: Look up reference information
   title: Переглянути довідкову інформацію
   #description: Browse terminology, command line syntax, API resource types, and setup tool documentation.
-  description: Ознайомтеся з термінологією, синтаксисом командного рядка, типами ресурсів API і документацією з настройки інструментів.
+  description: Ознайомтеся з термінологією, синтаксисом командного рядка, типами ресурсів API і документацією з налаштування інструментів.
   #button: View Reference
   button: Переглянути довідкову інформацію
   button_path: /docs/reference
   #name: contribute
 - name: внесок
   #title: Contribute to the docs
-  title: Внесок у документацію
+  title: Зробити внесок у документацію
   #description: Anyone can contribute, whether you’re new to the project or you’ve been around a long time.
-  description: Зробити свій внесок може будь-хто - ті, хто нещодавно долучилися до проекту, і ті, хто працюють над ним довгий час.
+  description: Будь-хто може зробити свій внесок, незалежно від того, чи ви нещодавно долучилися до проекту, чи працюєте над ним вже довгий час.
   #button: Contribute to the docs
   button: Зробити внесок у документацію
   button_path: /docs/contribute
@@ -90,5 +90,5 @@ cards:
   #title: About the documentation
   title: Про документацію
   #description: This website contains documentation for the current and previous 4 versions of Kubernetes.
-  description: Цей вебсайт містить документацію по актуальній версії Kubernetes і чотирьох попередніх.
+  description: Цей вебсайт містить документацію по актуальній і чотирьох попередніх версіях Kubernetes.
 ---
