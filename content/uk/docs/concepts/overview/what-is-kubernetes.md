@@ -26,7 +26,7 @@ Kubernetes - це платформа з відкритим початковим 
 <!--
 The name Kubernetes originates from Greek, meaning helmsman or pilot. Google open-sourced the Kubernetes project in 2014. Kubernetes builds upon a [decade and a half of experience that Google has with running production workloads at scale](https://ai.google/research/pubs/pub43438), combined with best-of-breed ideas and practices from the community.
 -->
-Назва Kubernetes походить з грецької та означає керманич, або пілот. Google відкрив доступ до початкових кодів проекту Kubernetes у 2014 році. Kubernetes побудовано [на базі п'ятнадцятилітнього досвіду, що Google отримав, оперуючи масштабними робочим навантаженнями](https://ai.google/research/pubs/pub43438) у купі з найкращими у своєму класі ідеями та практиками, які може запропонувати спільнота.
+Назва Kubernetes походить з грецької та означає керманич, або пілот. Google відкрив доступ до початкових кодів проекту Kubernetes у 2014 році. Kubernetes побудовано [на базі п'ятнадцятилітнього досвіду, що Google отримав, оперуючи масштабними робочими навантаженнями](https://ai.google/research/pubs/pub43438) у купі з найкращими у своєму класі ідеями та практиками, які може запропонувати спільнота.
 
 <!--
 ## Going back in time
