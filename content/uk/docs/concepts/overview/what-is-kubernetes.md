@@ -101,7 +101,7 @@ Containers have become popular because they provide extra benefits, such as:
 <!--
 Containers are a good way to bundle and run your applications. In a production environment, you need to manage the containers that run the applications and ensure that there is no downtime. For example, if a container goes down, another container needs to start. Wouldn't it be easier if this behavior was handled by a system?
 -->
-Контейнери - це прекрасний спосіб упакувати та запустити ваші застосунки. У продуктивному оточенні вам потрібно керувати контейнерами, в яких працюють застосунки, і стежити, щоб не було простою. Наприклад, якщо один контейнер припиняє роботу, інший має бути запущений йому на заміну. Чи не легше зробити так, щоб цією поведінкою керувала сама система?
+Контейнери - це прекрасний спосіб упакувати та запустити ваші застосунки. У прод оточенні вам потрібно керувати контейнерами, в яких працюють застосунки, і стежити, щоб не було простою. Наприклад, якщо один контейнер припиняє роботу, інший має бути запущений йому на заміну. Чи не легше зробити так, щоб цією поведінкою керувала сама система?
 
 <!--
 That's how Kubernetes comes to the rescue! Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more. For example, Kubernetes can easily manage a canary deployment for your system.
