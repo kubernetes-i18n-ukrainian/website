@@ -12,7 +12,9 @@ tags:
 - fundamental
 - core-object
 ---
+<!--
 An abstract way to expose an application running on a set of  as a network service.
+-->
 Це абстрактний спосіб опублікувати застосунок що працює як один (або кілька) {{< glossary_tooltip text="Pod'ів" term_id="pod" >}} у вигляді мережевої служби.
 
 <!--more-->
