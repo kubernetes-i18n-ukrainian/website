@@ -106,7 +106,7 @@ Containers are a good way to bundle and run your applications. In a production e
 <!--
 That's how Kubernetes comes to the rescue! Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more. For example, Kubernetes can easily manage a canary deployment for your system.
 -->
-Ось де Kubernetes приходить на допомогу! Kubernetes надає вам каркас для еластичного запуску розподілених систем. Він опікується масштабуванням та аварійним відновленням вашого застосунку, пропонує шаблони розгортань, тощо. Наприклад, Kubernetes дозволяє легко створювати розгортання за стратегією canary у вашій системі.
+Ось де Kubernetes приходить на допомогу! Kubernetes надає вам каркас для еластичного запуску розподілених систем. Він опікується масштабуванням та аварійним відновленням вашого застосунку, пропонує шаблони розгортань тощо. Наприклад, Kubernetes дозволяє легко створювати розгортання за стратегією canary у вашій системі.
 
 <!--
 Kubernetes provides you with:
