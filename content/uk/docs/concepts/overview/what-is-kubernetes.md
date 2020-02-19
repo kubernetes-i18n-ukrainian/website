@@ -67,7 +67,7 @@ Each VM is a full machine running all the components, including its own operatin
 <!--
 Containers have become popular because they provide extra benefits, such as:
 -->
-Контейнери стали популярними, тому що пропонували додаткові переваги, такі як:
+Контейнери стали популярними, бо пропонували додаткові переваги, такі як:
 
 <!--
 * Agile application creation and deployment: increased ease and efficiency of container image creation compared to VM image use.
