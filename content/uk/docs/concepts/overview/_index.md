@@ -1,4 +1,4 @@
 ---
-title: "overview"
+title: "Огляд"
 weight: 20
 ---

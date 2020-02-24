@@ -1,8 +1,7 @@
-This feature is currently in a *alpha* state, meaning:
+Ця компонента, наразі, у статусі *alpha*, що означає:
 
-* The version names contain alpha (e.g. v1alpha1).
-* Might be buggy. Enabling the feature may expose bugs. Disabled by default.
-* Support for feature may be dropped at any time without notice.
-* The API may change in incompatible ways in a later software release without notice.
-* Recommended for use only in short-lived testing clusters, due to increased risk of bugs and lack of long-term support.
-
+* Назва версії містить слово alpha (напр. v1alpha1).
+* Може мати помилки. Увімкнення цієї компоненти можливо додасть помилок в систему. По-замовчуванню - вимкнуте.
+* Підтримка цього компоненту може бути припинена у будь-який момент часу без попередження.
+* API може стати несумісним у наступних релізах без попередження.
+* Рекомендовано використовувати лише у тестових кластерах, через підвищений ризик багів та відсутність довгострокової підтримки.
