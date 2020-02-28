@@ -30,7 +30,7 @@ card:
 
 <!--You can deploy a Kubernetes cluster on a local machine, cloud, on-prem datacenter; or choose a managed Kubernetes cluster. You can also create custom solutions across a wide range of cloud providers, or bare metal environments.
 -->
-Ви можете розгорнути кластер Kubernetes на робочому комп’ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
+Ви можете розгорнути кластер Kubernetes на робочому комп'ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
 
 <!--More simply, you can create a Kubernetes cluster in learning and production environments.
 -->
@@ -42,11 +42,12 @@ card:
 
 <!--## Learning environment
 -->
+
 ## Навчальне оточення {#навчальне-оточення}
 
 <!--If you're learning Kubernetes, use the Docker-based solutions: tools supported by the Kubernetes community, or tools in the ecosystem to set up a Kubernetes cluster on a local machine.
 -->
-Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, підтримувані спільнотою Kubernetes, або інші інструменти з сімейства проектів для налаштування Kubernetes кластера на локальному комп’ютері.
+Для вивчення Kubernetes використовуйте рішення на базі Docker: інструменти, підтримувані спільнотою Kubernetes, або інші інструменти з сімейства проектів для налаштування Kubernetes кластера на локальному комп'ютері.
 
 {{< table caption="Таблиця інструментів для локального розгортання Kubernetes, які підтримуються спільнотою або входять до сімейства проектів Kubernetes." >}}
 
