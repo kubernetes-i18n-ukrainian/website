@@ -105,7 +105,7 @@ Kubernetes Master відповідає за підтримку бажаного 
 
 <!--The nodes in a cluster are the machines (VMs, physical servers, etc) that run your applications and cloud workflows. The Kubernetes master controls each node; you'll rarely interact with nodes directly.
 -->
-Вузлами кластера називають машини (ВМ, фізичні сервери тощо), на яких запущені ваші застосунки та хмарні робочі навантаження. Кожен вузол керується Kubernetes master; безпосередньо із вузлом ви взаємодіятимете лише зрідка.
+Вузлами кластера називають машини (ВМ, фізичні сервери тощо), на яких запущені ваші застосунки та хмарні робочі навантаження. Кожен вузол керується Kubernetes master; ви лише зрідка взаємодіятимете безпосередньо із вузлами.
 
 
 {{% /capture %}}
