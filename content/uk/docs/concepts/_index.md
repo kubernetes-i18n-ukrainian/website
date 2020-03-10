@@ -34,7 +34,7 @@ weight: 40
   * **[kube-proxy](/docs/admin/kube-proxy/)**, a network proxy which reflects Kubernetes networking services on each node.
   -->
 
-* **Kubernetes master** становить собою набір із трьох процесів, запущених на одному вузлі вашого кластера, що визначений як керівний (master). До цих процесів належать: [сервер API](/docs/admin/kube-apiserver/), [менеджер контролерів](/docs/admin/kube-controller-manager/) і [планувальник](/docs/admin/kube-scheduler/).
+* **Kubernetes master** становить собою набір із трьох процесів, запущених на одному вузлі вашого кластера, що визначений як керівний (master). До цих процесів належать: [kube-apiserver](/docs/admin/kube-apiserver/), [kube-controller-manager](/docs/admin/kube-controller-manager/) і [kube-scheduler](/docs/admin/kube-scheduler/).
 * На кожному робочому (не керівному) вузлі вашого кластера виконуються два процеси:
   * **[kubelet](/docs/admin/kubelet/)**, що обмінюється даними з Kubernetes master.
   * **[kube-proxy](/docs/admin/kube-proxy/)**, мережевий проксі, що відображає мережеві сервіси Kubernetes на кожному вузлі.
