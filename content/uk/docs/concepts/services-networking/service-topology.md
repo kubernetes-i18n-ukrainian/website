@@ -4,9 +4,9 @@ reviewers:
 - imroc
 title: Service Topology
 feature:
-  title: Топологія сервісів
+  title: Топологія Сервісів
   description: >
-    Маршрутизація трафіка сервісом відповідно до топології кластера.
+    Маршрутизація трафіка Сервісом відповідно до топології кластера.
 
 content_template: templates/concept
 weight: 10
