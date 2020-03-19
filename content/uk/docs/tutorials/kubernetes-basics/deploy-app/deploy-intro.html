@@ -1,5 +1,5 @@
 ---
-title: Використання kubectl для створення Deployment
+title: Використання kubectl для створення Deployment'а
 weight: 10
 ---
 
@@ -24,7 +24,7 @@ weight: 10
                 <ul>
                     <!--<li>Learn about application Deployments.</li>
                     -->
-                    <li>Зрозуміти, що таке Deployment застосунків.</li>
+                    <li>Дізнатися, що таке Deployment застосунків.</li>
                     <!--<li>Deploy your first app on Kubernetes with kubectl.</li>
                     -->
                     <li>Розгорнути свій перший застосунок у Kubernetes за допомогою kubectl.</li>
@@ -43,16 +43,16 @@ weight: 10
                 </p>
                 -->
                 <p>
-                Після того, як ви запустили Kubernetes кластер, ви можете розгортати поверх нього контейнерізовані застосунки. Для цього вам необхідно створити конфігурацію Kubernetes <b>Deployment</b>. Вона інформує Kubernetes, як створювати і оновлювати поди для вашого застосунку. Після того, як ви створили Deployment, Kubernetes master розподіляє ці поди по окремих вузлах кластера.
+                Після того, як ви запустили Kubernetes кластер, ви можете розгортати поверх нього контейнерізовані застосунки. Для цього вам необхідно створити конфігурацію Kubernetes <b>Deployment</b>. Вона інформує Kubernetes, як створювати і оновлювати Поди для вашого застосунку. Після того, як ви створили Deployment, Kubernetes master розподіляє ці Поди по окремих вузлах кластера.
                 </p>
 
                 <!--<p>Once the application instances are created, a Kubernetes Deployment Controller continuously monitors those instances. If the Node hosting an instance goes down or is deleted, the Deployment controller replaces the instance with an instance on another Node in the cluster. <b>This provides a self-healing mechanism to address machine failure or maintenance.</b></p>
                 -->
-                <p>Після створення поди застосунку безперервно мониторяться контролером Kubernetes Deployment. Якщо вузол, на якому розміщено под, зупинив роботу або був видалений, Deployment контролер переміщає цей под на інший вузол кластера. <b>Так працює механізм самозцілення, що підтримує робочий стан кластера у разі апаратного збою чи технічних робіт.</b></p>
+                <p>Після створення Поди застосунку безперервно мониторяться контролером Kubernetes Deployment. Якщо вузол, на якому розміщено Под, зупинив роботу або був видалений, Deployment контролер переміщає цей Под на інший вузол кластера. <b>Так працює механізм самозцілення, що підтримує робочий стан кластера у разі апаратного збою чи технічних робіт.</b></p>
 
                 <!--<p>In a pre-orchestration world, installation scripts would often be used to start applications, but they did not allow recovery from machine failure.  By both creating your application instances and keeping them running across Nodes, Kubernetes Deployments provide a fundamentally different approach to application management. </p>
                 -->
-                <p>До появи оркестрації застосунки часто запускали за допомогою скриптів для установки. Але скрипти не давали можливості відновити працездатний стан застосунку після апаратного збою. Завдяки створенню подів та їхньому запуску на вузлах кластера Kubernetes Deployment пропонує цілковито інший підхід до управління застосунками. </p>
+                <p>До появи оркестрації застосунки часто запускали за допомогою скриптів для установки. Але скрипти не давали можливості відновити працездатний стан застосунку після апаратного збою. Завдяки створенню Подів та їхньому запуску на вузлах кластера Kubernetes Deployment пропонує цілковито інший підхід до управління застосунками. </p>
 
             </div>
 
@@ -60,11 +60,11 @@ weight: 10
                 <div class="content__box content__box_lined">
                     <!--<h3>Summary:</h3>
                     -->
-                    <h3>Стислий зміст:</h3>
+                    <h3>Зміст:</h3>
                     <ul>
                         <!--<li>Deployments</li>
                         -->
-                        <li>Процеси Deployment</li>
+                        <li>Deployment'и</li>
                         <li>Kubectl</li>
                     </ul>
                 </div>
@@ -74,7 +74,7 @@ weight: 10
                     </i></p>
                     -->
                     <p><i>
-                        Deployment відповідає за створення і оновлення подів для вашого застосунку
+                        Deployment відповідає за створення і оновлення Подів для вашого застосунку
                     </i></p>
                 </div>
             </div>
@@ -99,11 +99,11 @@ weight: 10
 
                 <!--<p>You can create and manage a Deployment by using the Kubernetes command line interface, <b>Kubectl</b>. Kubectl uses the Kubernetes API to interact with the cluster. In this module, you'll learn the most common Kubectl commands needed to create Deployments that run your applications on a Kubernetes cluster.</p>
                 -->
-                <p>Ви можете створити Deployment і керувати ним за допомогою <b>kubectl</b>, або командного рядка Kubernetes. kubectl взаємодіє з кластером через Kubernetes API. У цьому модулі ви вивчите найпоширеніші команди kubectl для створення процесів Deployment, які запускатимуть ваші застосунки у Kubernetes кластері.</p>
+                <p>Ви можете створити Deployment і керувати ним за допомогою <b>kubectl</b>, або командного рядка Kubernetes. kubectl взаємодіє з кластером через Kubernetes API. У цьому модулі ви вивчите найпоширеніші команди kubectl для створення Deployment'ів, які запускатимуть ваші застосунки у Kubernetes кластері.</p>
 
                 <!--<p>When you create a Deployment, you'll need to specify the container image for your application and the number of replicas that you want to run. You can change that information later by updating your Deployment; Modules <a href="/docs/tutorials/kubernetes-basics/scale-intro/">5</a> and <a href="/docs/tutorials/kubernetes-basics/update-intro/">6</a> of the bootcamp discuss how you can scale and update your Deployments.</p>
                 -->
-                <p>Для створення Deployment вам необхідно задати образ контейнера для вашого застосунку і кількість реплік, які ви хочете запустити. Згодом цю інформацію можна змінити, оновивши Deployment. У навчальних модулях <a href="/docs/tutorials/kubernetes-basics/scale-intro/">5</a> і <a href="/docs/tutorials/kubernetes-basics/update-intro/">6</a> йдеться про те, як масштабувати і оновлювати ваші процеси Deployment.</p>
+                <p>Для створення Deployment'а вам необхідно задати образ контейнера для вашого застосунку і кількість реплік, які ви хочете запустити. Згодом цю інформацію можна змінити, оновивши Deployment. У навчальних модулях <a href="/docs/tutorials/kubernetes-basics/scale-intro/">5</a> і <a href="/docs/tutorials/kubernetes-basics/update-intro/">6</a> йдеться про те, як масштабувати і оновлювати Deployment'и.</p>
 
 
 
@@ -127,7 +127,7 @@ weight: 10
               <p>
               -->
                 <p>
-                    Для створення Deployment ви використовуватимете застосунок, написаний на Node.js і упакований в Docker контейнер. (Якщо ви ще не пробували створити Node.js застосунок і розгорнути його у контейнері, радимо почати саме з цього; інструкції ви знайдете у навчальному матеріалі <a href="/docs/tutorials/hello-minikube/">Привіт, Minikube</a>).
+                    Для створення Deployment'а ви використовуватимете застосунок, написаний на Node.js і упакований в Docker контейнер. (Якщо ви ще не пробували створити Node.js застосунок і розгорнути його у контейнері, радимо почати саме з цього; інструкції ви знайдете у навчальному матеріалі <a href="/docs/tutorials/hello-minikube/">Привіт Minikube</a>).
                   <p>
               
                <!--<p>Now that you know what Deployments are, let's go to the online tutorial and deploy our first app!</p>
