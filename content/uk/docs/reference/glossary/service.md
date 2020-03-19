@@ -1,11 +1,11 @@
 ---
-title: Service
+title: Сервіс
 id: service
 date: 2018-04-12
 full_link: /docs/concepts/services-networking/service/
 # A way to expose an application running on a set of Pods as a network service.
 short_description: >
-  Спосіб опублікувати застосунок що працює як один або кілька Pod'ів у вигляді мережевої служби.
+  Спосіб відкрити доступ до застосунку, що запущений на декількох Подах у вигляді мережевої служби.
 
 aka:
 tags:
@@ -15,7 +15,7 @@ tags:
 <!--
 An abstract way to expose an application running on a set of  as a network service.
 -->
-Це абстрактний спосіб опублікувати застосунок що працює як один (або кілька) {{< glossary_tooltip text="Pod'ів" term_id="pod" >}} у вигляді мережевої служби.
+Це абстрактний спосіб відкрити доступ до застосунку, що працює як один (або декілька) {{< glossary_tooltip text="Подів" term_id="pod" >}} у вигляді мережевої служби.
 
 <!--more-->
 
