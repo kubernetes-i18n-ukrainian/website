@@ -15,8 +15,8 @@ each of which has a sequence of steps.
 Before walking through each tutorial, you may want to bookmark the
 [Standardized Glossary](/docs/reference/glossary/) page for later references.
 -->
-У цьому розділі документації Kubernetes зібрані навчальні матеріали. Кожна стаття присвячена окремій цілі, що є більшою за одиничне [завдання](/docs/tasks/). Зазвичай навчальний матеріал має декілька розділів, кожен з яких містить певну послідовність дій. До ознайомлення з навчальними матеріалами вам, можливо, знадобиться додати у закладки сторінку з
-[нормативним словником](/docs/reference/glossary/) для подальшого консультування.
+У цьому розділі документації Kubernetes зібрані навчальні матеріали. Кожний матеріал показує, як досягти окремої мети, що є більшою за одне [завдання](/docs/tasks/). Зазвичай навчальний матеріал має декілька розділів, кожен з яких містить певну послідовність дій. До ознайомлення з навчальними матеріалами вам, можливо, знадобиться додати у закладки сторінку з
+[Глосарієм](/docs/reference/glossary/) для подальшого консультування.
 
 {{% /capture %}}
 
@@ -28,7 +28,7 @@ Before walking through each tutorial, you may want to bookmark the
 
 <!--* [Kubernetes Basics](/docs/tutorials/kubernetes-basics/) is an in-depth interactive tutorial that helps you understand the Kubernetes system and try out some basic Kubernetes features.
 -->
-* [Основи Kubernetes](/docs/tutorials/kubernetes-basics/) детальний навчальний матеріал з інтерактивними уроками, що допоможе вам зрозуміти систему Kubernetes і спробувати її базову функціональність.
+* [Основи Kubernetes](/docs/tutorials/kubernetes-basics/) - детальний навчальний матеріал з інтерактивними уроками, що допоможе вам зрозуміти Kubernetes і спробувати його базову функціональність.
 
 * [Scalable Microservices with Kubernetes (Udacity)](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615)
 
@@ -86,6 +86,6 @@ for information about the tutorial page type and the tutorial template.
 -->
 Якщо ви хочете написати навчальний матеріал, у статті
 [Використання шаблонів сторінок](/docs/home/contribute/page-templates/)
-ви знайдете інформацію щодо типу і шаблона навчальної сторінки.
+ви знайдете інформацію про тип навчальної сторінки і шаблон.
 
 {{% /capture %}}
