@@ -38,17 +38,17 @@ Before walking through each tutorial, you may want to bookmark the
 
 <!--## Configuration
 -->
-## Configuration
+## Конфігурація
 
 * [Configuring Redis Using a ConfigMap](/docs/tutorials/configuration/configure-redis-using-configmap/)
 
-## Stateless Applications
+## Застосунки без збереження стану (Stateless Applications)
 
 * [Exposing an External IP Address to Access an Application in a Cluster](/docs/tutorials/stateless-application/expose-external-ip-address/)
 
 * [Example: Deploying PHP Guestbook application with Redis](/docs/tutorials/stateless-application/guestbook/)
 
-## Stateful Applications
+## Застосунки зі збереженням стану (Stateful Applications)
 
 * [StatefulSet Basics](/docs/tutorials/stateful-application/basic-stateful-set/)
 
@@ -68,11 +68,11 @@ Before walking through each tutorial, you may want to bookmark the
 
 * [Set Up CI/CD for a Distributed Crossword Puzzle App on Kubernetes (Part 4)](https://www.linux.com/blog/learn/chapter/intro-to-kubernetes/2017/6/set-cicd-distributed-crossword-puzzle-app-kubernetes-part-4)
 
-## Clusters
+## Кластери
 
 * [AppArmor](/docs/tutorials/clusters/apparmor/)
 
-## Services
+## Сервіси
 
 * [Using Source IP](/docs/tutorials/services/source-ip/)
 
