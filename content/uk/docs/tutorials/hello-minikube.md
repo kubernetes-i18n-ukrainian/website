@@ -11,7 +11,7 @@ menu:
     #post: >
       #<p>Ready to get your hands dirty? Build a simple Kubernetes cluster that runs "Hello World" for Node.js.</p>
     post: >
-      <p>Готові попрацювати? Створюємо простий Kubernetes кластер для запуску Node.js застосунку "Hello World".</p>
+      <p>Готові попрацювати? Створимо простий Kubernetes кластер для запуску Node.js застосунку "Hello World".</p>
 card: 
   #name: tutorials
   name: навчальні матеріали
@@ -24,14 +24,14 @@ card:
 on Kubernetes using [Minikube](/docs/setup/learning-environment/minikube) and Katacoda.
 Katacoda provides a free, in-browser Kubernetes environment.
 -->
-Із цього навчального матеріалу ви дізнаєтесь, як запустити у Kubernetes простий Node.js застосунок Hello World за допомогою [Minikube](/docs/setup/learning-environment/minikube) і Katacoda. Katacoda надає для користування безплатне Kubernetes середовище, що доступне у вашому браузері.
+З цього навчального матеріалу ви дізнаєтесь, як запустити у Kubernetes простий Hello World застосунок на Node.js за допомогою [Minikube](/docs/setup/learning-environment/minikube) і Katacoda. Katacoda надає безплатне Kubernetes середовище, що доступне у вашому браузері.
 
 <!--{{< note >}}
 You can also follow this tutorial if you've installed [Minikube locally](/docs/tasks/tools/install-minikube/).
 {{< /note >}}
 -->
 {{< note >}}
-Ви також можете навчатись за цим матеріалом, якщо встановили [Minikube локально](/docs/tasks/tools/install-minikube/).
+Також ви можете навчатись за цим матеріалом, якщо встановили [Minikube локально](/docs/tasks/tools/install-minikube/).
 {{< /note >}}
 
 {{% /capture %}}
@@ -54,7 +54,7 @@ You can also follow this tutorial if you've installed [Minikube locally](/docs/t
 
 <!--This tutorial provides a container image built from the following files:
 -->
-У цьому навчальному матеріалі ми використовуємо образ контейнера, зібраний із наступних файлів::
+У цьому навчальному матеріалі ми використовуємо образ контейнера, зібраний із наступних файлів:
 
 {{< codenew language="js" file="minikube/server.js" >}}
 
@@ -84,7 +84,7 @@ You can also follow this tutorial if you've installed [Minikube locally](/docs/t
 
 <!--2. Open the Kubernetes dashboard in a browser:
 -->
-2. Відкрийте інформаційну панель Kubernetes у браузері:
+2. Відкрийте Kubernetes dashboard у браузері:
 
     ```shell
     minikube dashboard
@@ -92,11 +92,11 @@ You can also follow this tutorial if you've installed [Minikube locally](/docs/t
 
 <!--3. Katacoda environment only: At the top of the terminal pane, click the plus sign, and then click **Select port to view on Host 1**.
 -->
-3. Лише для середовища Katacoda: у верхній частині вікна термінала натисніть знак плюс, а потім -- **Select port to view on Host 1 (Обрати порт для відображення на хості 1)**.
+3. Тільки для Katacoda: у верхній частині вікна термінала натисніть знак плюс, а потім -- **Select port to view on Host 1**.
 
 <!--4. Katacoda environment only: Type `30000`, and then click **Display Port**.
 -->
-4. Лише для середовища Katacoda: введіть `30000`, а потім натисніть **Display Port (Відобразити порт)**. 
+4. Тільки для Katacoda: введіть `30000`, а потім натисніть **Display Port**. 
 
 <!--## Create a Deployment
 -->
@@ -109,12 +109,12 @@ tutorial has only one Container. A Kubernetes
 Pod and restarts the Pod's Container if it terminates. Deployments are the
 recommended way to manage the creation and scaling of Pods.
 -->
-[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою керування і роботи у мережі. У цьому навчальному матеріалі под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан поду і перезапускає контейнер поду, якщо він зупиняє роботу. Створювати і масштабувати поди рекомендується за допомогою Deployment.
+[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою адміністрування і роботи у мережі. У цьому навчальному матеріалі Под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан Поду і перезапускає контейнер в Поді, якщо контейнер перестає працювати. Створювати і масштабувати Поди рекомендується за допомогою Deployment'ів.
 
 <!--1. Use the `kubectl create` command to create a Deployment that manages a Pod. The
 Pod runs a Container based on the provided Docker image.
 -->
-1. За допомогою команди `kubectl create` створіть Deployment, який керуватиме подом. Под запускає контейнер на основі наданого Docker образу.
+1. За допомогою команди `kubectl create` створіть Deployment, який керуватиме Подом. Под запускає контейнер на основі наданого Docker образу.
 
     ```shell
     kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node
@@ -122,7 +122,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--2. View the Deployment:
 -->
-2. Переглянути інформацію про Deployment:
+2. Переглянути інформацію про запущений Deployment:
 
     ```shell
     kubectl get deployments
@@ -139,7 +139,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--3. View the Pod:
 -->
-3. Переглянути інформацію про под:
+3. Переглянути інформацію про запущені Поди:
 
     ```shell
     kubectl get pods
@@ -172,22 +172,22 @@ Pod runs a Container based on the provided Docker image.
   
     <!--{{< note >}}For more information about `kubectl`commands, see the [kubectl overview](/docs/user-guide/kubectl-overview/).{{< /note >}}
     -->
-    {{< note >}}Більше про команди `kubectl` ви можете дізнатися з статті [Загальна інформація про kubectl](/docs/user-guide/kubectl-overview/).{{< /note >}}
+    {{< note >}}Більше про команди `kubectl` ви можете дізнатися зі статті [Загальна інформація про kubectl](/docs/user-guide/kubectl-overview/).{{< /note >}}
 
 <!--## Create a Service
 -->
-## Створення сервісу
+## Створення Сервісу
 
 <!--By default, the Pod is only accessible by its internal IP address within the
 Kubernetes cluster. To make the `hello-node` Container accessible from outside the
 Kubernetes virtual network, you have to expose the Pod as a
 Kubernetes [*Service*](/docs/concepts/services-networking/service/).
 -->
-За типовими налаштуваннями, под доступний лише за внутрішньою IP-адресою у межах Kubernetes кластера. Для того, щоб контейнер `hello-node` став доступним за межами віртуальної мережі Kubernetes, под необхідно відкрити як Kubernetes [*сервіс*](/docs/concepts/services-networking/service/).
+За умовчанням, Под доступний лише за внутрішньою IP-адресою у межах Kubernetes кластера. Для того, щоб контейнер `hello-node` став доступним за межами віртуальної мережі Kubernetes, Под необхідно відкрити як Kubernetes [*Сервіс*](/docs/concepts/services-networking/service/).
 
 <!--1. Expose the Pod to the public internet using the `kubectl expose` command:
 -->
-1. Відкрийте под для загального доступу в інтернет за допомогою команди `kubectl expose`:
+1. Відкрийте Под для публічного доступу з інтернету за допомогою команди `kubectl expose`:
 
     ```shell
     kubectl expose deployment hello-node --type=LoadBalancer --port=8080
@@ -196,11 +196,11 @@ Kubernetes [*Service*](/docs/concepts/services-networking/service/).
     <!--The `--type=LoadBalancer` flag indicates that you want to expose your Service
     outside of the cluster.
     -->
-    Флаг `--type=LoadBalancer` означає, що ви хочете відкрити сервіс за межі кластера.
+    Прапорець `--type=LoadBalancer` вказує, що ви хочете відкрити доступ до Сервісу за межами кластера.
 
 <!--2. View the Service you just created:
 -->
-2. Перегляньте інформацію за сервісом, який ви щойно створили:
+2. Перегляньте інформацію за Сервісом, який ви щойно створили:
 
     ```shell
     kubectl get services
@@ -221,11 +221,11 @@ Kubernetes [*Service*](/docs/concepts/services-networking/service/).
     the `LoadBalancer` type makes the Service accessible through the `minikube service`
     command.
     -->
-    Для хмарних провайдерів, що підтримують балансування навантаження: доступ до сервісу надається через зовнішню IP-адресу. Для Minikube: параметр тип `LoadBalancer` відкриває сервіс через команду `minikube service`.
+    Для хмарних провайдерів, що підтримують балансування навантаження, доступ до Сервісу надається через зовнішню IP-адресу. Для Minikube, тип `LoadBalancer` робить Сервіс доступним ззовні за допомогою команди `minikube service`.
 
 <!--3. Run the following command:
 -->
-3. Запустіть наступну команду:
+3. Виконайте наступну команду:
 
     ```shell
     minikube service hello-node
@@ -233,19 +233,19 @@ Kubernetes [*Service*](/docs/concepts/services-networking/service/).
 
 <!--4. Katacoda environment only: Click the plus sign, and then click **Select port to view on Host 1**.
 -->
-4. Лише для середовища Katacoda: натисніть знак плюс, а потім -- **Select port to view on Host 1 (Обрати порт для відображення на хості 1)**.
+4. Тільки для Katacoda: натисніть знак плюс, а потім -- **Select port to view on Host 1**.
 
 <!--5. Katacoda environment only: Note the 5 digit port number displayed opposite to `8080` in services output. This port number is randomly generated and it can be different for you. Type your number in the port number text box, then click Display Port. Using the example from earlier, you would type `30369`.
 -->
-5. Лише для середовища Katacoda: запишіть п'ятизначний номер порту, що відображається напроти `8080` у виводі даних сервісу. Номер цього порту генерується у довільному порядку і може бути іншим у вашому випадку. Введіть номер порту у призначене для цього текстове поле і натисніть Display Port (Відобразити порт). У нашому прикладі номер порту `30369`.
+5. Тільки для Katacoda: запишіть п'ятизначний номер порту, що відображається напроти `8080` у виводі сервісу. Номер цього порту генерується довільно і тому може бути іншим у вашому випадку. Введіть номер порту у призначене для цього текстове поле і натисніть Display Port. У нашому прикладі номер порту `30369`.
 
     <!--This opens up a browser window that serves your app and shows the "Hello World" message.
     -->
-    Це відкриє вікно браузера, в якому запущений ваш застосунок, і відобразить повідомлення "Hello World".
+    Це відкриє вікно браузера, в якому запущений ваш застосунок, і покаже повідомлення "Hello World".
 
 <!--## Enable addons
 -->
-## Підтримка розширень
+## Увімкнення розширень
 
 <!--Minikube has a set of built-in {{< glossary_tooltip text="addons" term_id="addons" >}} that can be enabled, disabled and opened in the local Kubernetes environment.
 -->
@@ -285,7 +285,7 @@ Minikube має ряд вбудованих {{< glossary_tooltip text="розш�
    
 <!--2. Enable an addon, for example, `metrics-server`:
 -->
-2. Активувати розширення, наприклад `metrics-server`:
+2. Увімкнути розширення, наприклад `metrics-server`:
 
     ```shell
     minikube addons enable metrics-server
@@ -301,7 +301,7 @@ Minikube має ряд вбудованих {{< glossary_tooltip text="розш�
 
 <!--3. View the Pod and Service you just created:
 -->
-3. Переглянути інформацію про под і сервіс, який ви щойно створили:
+3. Переглянути інформацію про Под і Сервіс, які ви щойно створили:
 
     ```shell
     kubectl get pod,svc -n kube-system
@@ -334,7 +334,7 @@ Minikube має ряд вбудованих {{< glossary_tooltip text="розш�
 
 <!--4. Disable `metrics-server`:
 -->
-4. Дезактивувати `metrics-server`:
+4. Вимкнути `metrics-server`:
 
     ```shell
     minikube addons disable metrics-server
@@ -383,12 +383,12 @@ minikube delete
 
 <!--* Learn more about [Deployment objects](/docs/concepts/workloads/controllers/deployment/).
 -->
-* Дізнайтеся більше про [об’єкти Deployment](/docs/concepts/workloads/controllers/deployment/).
+* Дізнайтеся більше про [об'єкти Deployment](/docs/concepts/workloads/controllers/deployment/).
 <!--* Learn more about [Deploying applications](/docs/user-guide/deploying-applications/).
 -->
 * Дізнайтеся більше про [розгортання застосунків](/docs/user-guide/deploying-applications/).
 <!--* Learn more about [Service objects](/docs/concepts/services-networking/service/).
 -->
-* Дізнайтеся більше про [об’єкти сервісу](/docs/concepts/services-networking/service/).
+* Дізнайтеся більше про [об'єкти сервісу](/docs/concepts/services-networking/service/).
 
 {{% /capture %}}
