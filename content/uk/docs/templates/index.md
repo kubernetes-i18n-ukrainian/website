@@ -7,7 +7,9 @@ resources:
 - src: "*beta*"
   title: "beta"
 - src: "*deprecated*"
-  title: "deprecated"
+#  title: "deprecated"
+  title: "застарілий"
 - src: "*stable*"
-  title: "stable"
+#  title: "stable"
+  title: "стабільний"
 ---
