@@ -42,7 +42,7 @@ Before walking through each tutorial, you may want to bookmark the
 
 * [Configuring Redis Using a ConfigMap](/docs/tutorials/configuration/configure-redis-using-configmap/)
 
-## Застосунки без збереження стану (Stateless Applications)
+## Застосунки без стану (Stateless Applications)
 
 * [Exposing an External IP Address to Access an Application in a Cluster](/docs/tutorials/stateless-application/expose-external-ip-address/)
 
