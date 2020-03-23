@@ -249,7 +249,7 @@ Kubernetes [*Service*](/docs/concepts/services-networking/service/).
 
 <!--Minikube has a set of built-in {{< glossary_tooltip text="addons" term_id="addons" >}} that can be enabled, disabled and opened in the local Kubernetes environment.
 -->
-Minikube має ряд вбудованих {{< glossary_tooltip text="розширень" term_id="addons" >}}, які можна активувати, дезактивувати і відкрити у локальному Kubernetes оточенні.
+Minikube має ряд вбудованих {{< glossary_tooltip text="розширень" term_id="addons" >}}, які можна увімкнути, вимкнути і відкрити у локальному Kubernetes оточенні.
 
 <!--1. List the currently supported addons:
 -->
