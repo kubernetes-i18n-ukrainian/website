@@ -96,7 +96,7 @@ Kubernetes Master відповідає за підтримку бажаного 
 
 <!--The "master" refers to a collection of processes managing the cluster state.  Typically all these processes run on a single node in the cluster, and this node is also referred to as the master. The master can also be replicated for availability and redundancy.
 -->
-Слово "master" стосується набору процесів, які управляють станом кластера. Переважно всі ці процеси виконуються на одному вузлі кластера, який також називається master. Master-вузол можна реплікувати для підтримки високої доступності кластера.
+Слово "master" стосується набору процесів, які управляють станом кластера. Переважно всі ці процеси виконуються на одному вузлі кластера, який також називається master. Master-вузол можна реплікувати для забезпечення високої доступності кластера.
 
 <!--### Kubernetes Nodes
 -->
