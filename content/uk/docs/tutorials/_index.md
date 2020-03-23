@@ -48,7 +48,7 @@ Before walking through each tutorial, you may want to bookmark the
 
 * [Example: Deploying PHP Guestbook application with Redis](/docs/tutorials/stateless-application/guestbook/)
 
-## Застосунки зі збереженням стану (Stateful Applications)
+## Застосунки зі станом (Stateful Applications)
 
 * [StatefulSet Basics](/docs/tutorials/stateful-application/basic-stateful-set/)
 
