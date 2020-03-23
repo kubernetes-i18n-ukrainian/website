@@ -59,8 +59,8 @@ Kubernetes оперує певною кількістю абстракцій, щ
 
 * [Под *(Pod)*](/docs/concepts/workloads/pods/pod-overview/)
 * [Сервіс *(Service)*](/docs/concepts/services-networking/service/)
-* [Том *(Volume)*](/docs/concepts/storage/volumes/)
-* [Простір імен *(Namespace)*](/docs/concepts/overview/working-with-objects/namespaces/)
+* [Volume](/docs/concepts/storage/volumes/)
+* [Namespace](/docs/concepts/overview/working-with-objects/namespaces/)
 
 <!--Kubernetes also contains higher-level abstractions that rely on [Controllers](/docs/concepts/architecture/controller/) to build upon the basic objects, and provide additional functionality and convenience features. These include:
 -->
