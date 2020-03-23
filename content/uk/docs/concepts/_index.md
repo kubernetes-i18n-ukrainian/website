@@ -88,7 +88,7 @@ Kubernetes оперує певною кількістю абстракцій, щ
 <!--### Kubernetes Master
 -->
 
-### Kubernetes master
+### Kubernetes Master
 
 <!--The Kubernetes master is responsible for maintaining the desired state for your cluster. When you interact with Kubernetes, such as by using the `kubectl` command-line interface, you're communicating with your cluster's Kubernetes master.
 -->
