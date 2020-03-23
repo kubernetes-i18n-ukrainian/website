@@ -109,7 +109,7 @@ tutorial has only one Container. A Kubernetes
 Pod and restarts the Pod's Container if it terminates. Deployments are the
 recommended way to manage the creation and scaling of Pods.
 -->
-[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою адміністрування і роботи у мережі. У цьому навчальному матеріалі Под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан Поду і перезапускає контейнер в Поді, якщо контейнер перестає працювати. Створювати і масштабувати Поди рекомендується за допомогою Deployment'ів.
+[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою адміністрування і роботи у мережі. У цьому навчальному матеріалі Под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан Поду і перезапускає контейнер Пода, якщо контейнер перестає працювати. Створювати і масштабувати Поди рекомендується за допомогою Deployment'ів.
 
 <!--1. Use the `kubectl create` command to create a Deployment that manages a Pod. The
 Pod runs a Container based on the provided Docker image.
