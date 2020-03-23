@@ -46,7 +46,7 @@ weight: 40
 
 <!--Kubernetes contains a number of abstractions that represent the state of your system: deployed containerized applications and workloads, their associated network and disk resources, and other information about what your cluster is doing. These abstractions are represented by objects in the Kubernetes API. See [Understanding Kubernetes Objects](/docs/concepts/overview/working-with-objects/kubernetes-objects/) for more details.
 -->
-Kubernetes оперує певною кількістю абстракцій, що відображають стан вашої системи: розгорнуті у контейнерах застосунки та робочі навантаження, пов'язані з ними ресурси мережі та диску, інша інформація щодо функціонування вашого кластера. Ці абстракції представлені як об'єкти Kubernetes API. Для більш детальної інформації дивіться [Розуміння об'єктів Kubernetes](/docs/concepts/overview/working-with-objects/kubernetes-objects/).
+Kubernetes оперує певною кількістю абстракцій, що відображають стан вашої системи: розгорнуті у контейнерах застосунки та робочі навантаження, пов'язані з ними ресурси мережі та диску, інша інформація щодо функціонування вашого кластера. Ці абстракції представлені як об'єкти Kubernetes API. Для більш детальної інформації ознайомтесь з [Об'єктами Kubernetes](/docs/concepts/overview/working-with-objects/kubernetes-objects/).
 
 <!--The basic Kubernetes objects include:
 
