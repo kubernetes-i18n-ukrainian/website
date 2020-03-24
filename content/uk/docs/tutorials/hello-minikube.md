@@ -139,7 +139,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--3. View the Pod:
 -->
-3. Переглянути інформацію про запущені Поди:
+3. Перегляньте інформацію про запущені Поди:
 
     ```shell
     kubectl get pods
