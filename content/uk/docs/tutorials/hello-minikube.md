@@ -122,7 +122,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--2. View the Deployment:
 -->
-2. Переглянути інформацію про запущений Deployment:
+2. Перегляньте інформацію про запущений Deployment:
 
     ```shell
     kubectl get deployments
