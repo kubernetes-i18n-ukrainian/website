@@ -334,7 +334,7 @@ Minikube має ряд вбудованих {{< glossary_tooltip text="розш�
 
 <!--4. Disable `metrics-server`:
 -->
-4. Вимкнути `metrics-server`:
+4. Вимкніть `metrics-server`:
 
     ```shell
     minikube addons disable metrics-server
