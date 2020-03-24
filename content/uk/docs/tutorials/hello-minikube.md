@@ -285,7 +285,7 @@ Minikube має ряд вбудованих {{< glossary_tooltip text="розш�
    
 <!--2. Enable an addon, for example, `metrics-server`:
 -->
-2. Увімкнути розширення, наприклад `metrics-server`:
+2. Увімкніть розширення, наприклад `metrics-server`:
 
     ```shell
     minikube addons enable metrics-server
