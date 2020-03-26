@@ -7,11 +7,11 @@ full_link:
 # short_description: >
 #   The layer that provides capacity such as CPU, memory, network, and storage so that the containers can run and connect to a network.
 short_description: >
-  Шар, який надає контейнерам ресурси, такі як центральний процесор, пам'ять, мережа і сховище даних для запуску та об'єднання у мережу.
+  Шар, який надає контейнерам ресурси, такі як ЦП, пам'ять, мережа і сховище даних для того, щоб контейнери могли працювати і підключатися до мережі.
 
 aka:
 tags:
 - fundamental
 ---
 <!-- The layer that provides capacity such as CPU, memory, network, and storage so that the containers can run and connect to a network. -->
-Шар, який надає контейнерам ресурси, такі як центральний процесор, пам'ять, мережа і сховище даних для запуску та об'єднання у мережу.
+Шар, який надає контейнерам ресурси, такі як ЦП, пам'ять, мережа і сховище даних для того, щоб контейнери могли працювати і підключатися до мережі.
