@@ -3,8 +3,9 @@ title: Kubelet
 id: kubelet
 date: 2018-04-12
 full_link: /docs/reference/generated/kubelet
-short_description: >
+# short_description: >
 #   An agent that runs on each node in the cluster. It makes sure that containers are running in a pod.
+short_description: >
   Агент, що запущений на кожному вузлі кластера. Забезпечує запуск і роботу контейнерів у Подах.
 
 aka:
