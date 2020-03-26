@@ -6,7 +6,7 @@ date: 2019-06-15
 full_link: 
 short_description: >
 #    A set of worker machines, called nodes, that run containerized applications. Every cluster has at least one worker node.
-   Група робочих машин, або вузлів, на яких запущені контейнерізовані застосунки. Кожен кластер має щонайменше один вузол.
+   Група робочих машин (їх називають вузлами), на яких запущені контейнерізовані застосунки. Кожен кластер має щонайменше один вузол.
 
 aka: 
 tags:
