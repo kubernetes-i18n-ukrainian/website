@@ -4,8 +4,9 @@ title: API сервер
 id: kube-apiserver
 date: 2018-04-12
 full_link: /docs/reference/generated/kube-apiserver/
-short_description: >
+# short_description: >
 #  Control plane component that serves the Kubernetes API.
+short_description: >
   Компонент площини управління, що надає Kubernetes API.
 
 aka:
