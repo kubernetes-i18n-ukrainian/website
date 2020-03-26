@@ -3,8 +3,9 @@ title: kube-controller-manager
 id: kube-controller-manager
 date: 2018-04-12
 full_link: /docs/reference/command-line-tools-reference/kube-controller-manager/
-short_description: >
+# short_description: >
 #   Control Plane component that runs controller processes.
+short_description: >
   Компонент площини управління, який запускає процеси контролерів.
 
 aka: 
