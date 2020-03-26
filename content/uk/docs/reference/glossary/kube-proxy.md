@@ -25,7 +25,7 @@ the Kubernetes {{< glossary_tooltip term_id="service">}} concept.
 network communication to your Pods from network sessions inside or outside
 of your cluster.
 -->
-kube-proxy підтримує мережеві правила на вузлах. Ці правила обумовлюють підключення по мережі до ваших Подів всередині чи поза межами кластера.
+kube-proxy відповідає за мережеві правила на вузлах. Ці правила обумовлюють підключення по мережі до ваших Подів всередині чи поза межами кластера.
 
 <!--kube-proxy uses the operating system packet filtering layer if there is one
 and it's available. Otherwise, kube-proxy forwards the traffic itself.
