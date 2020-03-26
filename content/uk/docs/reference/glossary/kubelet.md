@@ -14,7 +14,7 @@ tags:
 - core-object
 ---
 <!-- An agent that runs on each node in the cluster. It makes sure that containers are running in a pod. -->
-Агент, що запущений на кожному не-мастер вузлі кластера. Забезпечує запуск і роботу контейнерів у Поді.
+Агент, що запущений на кожному вузлі кластера. Забезпечує запуск і роботу контейнерів у Подах.
 
 <!--more-->
 
