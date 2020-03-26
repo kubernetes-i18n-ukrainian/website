@@ -14,7 +14,7 @@ tags:
 - fundamental
 ---
 <!-- Control Plane component that runs {{< glossary_tooltip text="controller" term_id="controller" >}} processes. -->
-Компонент площини управління, який запускає процеси {{< glossary_tooltip text="контролерів" term_id="controller" >}}.
+Компонент площини управління, який запускає процеси {{< glossary_tooltip text="контролера" term_id="controller" >}}.
 
 <!--more-->
 
