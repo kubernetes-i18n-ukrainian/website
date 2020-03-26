@@ -4,8 +4,9 @@ title: Под
 id: pod
 date: 2018-04-12
 full_link: /docs/concepts/workloads/pods/pod-overview/
-short_description: >
+# short_description: >
 #   The smallest and simplest Kubernetes object. A Pod represents a set of running containers on your cluster.
+short_description: >
   Найменший і найпростіший об'єкт Kubernetes. Под являє собою групу контейнерів, що запущені у вашому кластері.
 
 aka: 
