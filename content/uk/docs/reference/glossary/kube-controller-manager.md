@@ -6,7 +6,7 @@ full_link: /docs/reference/command-line-tools-reference/kube-controller-manager/
 # short_description: >
 #   Control Plane component that runs controller processes.
 short_description: >
-  Компонент площини управління, який запускає процеси контролерів.
+  Компонент площини управління, який запускає процеси контролера.
 
 aka: 
 tags:
