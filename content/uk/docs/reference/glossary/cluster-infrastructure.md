@@ -13,4 +13,4 @@ tags:
 - operations
 ---
 <!-- The infrastructure layer provides and maintains VMs, networking, security groups and others. -->
-Інфраструктурний шар забезпечує і підтримує роботу ВМ, мережі, груп безпеки тощо.
+Шар інфраструктури забезпечує і підтримує роботу ВМ, мережі, груп безпеки тощо.
