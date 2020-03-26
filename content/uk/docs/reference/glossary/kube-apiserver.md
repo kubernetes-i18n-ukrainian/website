@@ -7,7 +7,7 @@ full_link: /docs/reference/generated/kube-apiserver/
 # short_description: >
 #  Control plane component that serves the Kubernetes API.
 short_description: >
-  Компонент площини управління, що надає Kubernetes API.
+  Компонент площини управління, що надає доступ до API Kubernetes.
 
 aka:
 - kube-apiserver
