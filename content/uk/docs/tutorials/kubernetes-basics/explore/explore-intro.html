@@ -25,10 +25,10 @@ weight: 10
                 <ul>
                     <!--<li>Learn about Kubernetes Pods.</li>
                     -->
-                    <li>Дізнатися, що таке Kubernetes Поди.</li>
+                    <li>Дізнатися, що таке Поди Kubernetes.</li>
                     <!--<li>Learn about Kubernetes Nodes.</li>
                     -->
-                    <li>Дізнатися, що таке Kubernetes вузли.</li>
+                    <li>Дізнатися, що таке вузли Kubernetes.</li>
                     <!--<li>Troubleshoot deployed applications.</li>
                     -->
                     <li>Діагностика розгорнутих застосунків.</li>
@@ -38,28 +38,28 @@ weight: 10
             <div class="col-md-8">
                 <!--<h2>Kubernetes Pods</h2>
                 -->
-                <h2>Kubernetes Поди</h2>
+                <h2>Поди Kubernetes</h2>
                 <!--<p>When you created a Deployment in Module <a href="/docs/tutorials/kubernetes-basics/deploy-intro/">2</a>, Kubernetes created a <b>Pod</b> to host your application instance. A Pod is a Kubernetes abstraction that represents a group of one or more application containers (such as Docker or rkt), and some shared resources for those containers. Those resources include:</p>
                 -->
                 <p>Коли ви створили Deployment у модулі <a href="/docs/tutorials/kubernetes-basics/deploy-intro/">2</a>, Kubernetes створив <b>Под</b>, щоб розмістити ваш застосунок. Под - це абстракція в Kubernetes, що являє собою групу з одного або декількох контейнерів застосунку (як Docker або rkt) і ресурси, спільні для цих контейнерів. До цих ресурсів належать:</p>
                 <ul>
                     <!--<li>Shared storage, as Volumes</li>
                     -->
-                    <li>Спільні сховища даних, або Томи</li>
+                    <li>Спільні сховища даних, або Volumes</li>
                     <!--<li>Networking, as a unique cluster IP address</li>
                     -->
                     <li>Мережа, адже кожен Под у кластері має унікальну IP-адресу</li>
                     <!--<li>Information about how to run each container, such as the container image version or specific ports to use</li>
                     -->
-                    <li>Інформація з запуску кожного контейнера, як наприклад, версія образу контейнера або використання певних портів</li>
+                    <li>Інформація з запуску кожного контейнера, така як версія образу контейнера або використання певних портів</li>
                 </ul>
                 <!--<p>A Pod models an application-specific "logical host" and can contain different application containers which are relatively tightly coupled. For example, a Pod might include both the container with your Node.js app as well as a different container that feeds the data to be published by the Node.js webserver. The containers in a Pod share an IP Address and port space, are always co-located and co-scheduled, and run in a shared context on the same Node.</p>
                 -->
-                <p>Под моделює специфічний для даного застосунку “логічний хост” і може містити різні, але доволі щільно зв’язані контейнери. Наприклад, в одному Поді може бути контейнер з вашим Node.js застосунком та інший контейнер, що передає дані для публікації Node.js вебсерверу. Контейнери в межах Поду мають спільну IP-адресу і порти, завжди є сполученими, плануються для запуску разом і запускаються у спільному контексті на одному вузлі.</p>
+                <p>Под моделює специфічний для даного застосунку "логічний хост" і може містити різні, але доволі щільно зв’язані контейнери. Наприклад, в одному Поді може бути контейнер з вашим Node.js застосунком та інший контейнер, що передає дані для публікації Node.js вебсерверу. Контейнери в межах Пода мають спільну IP-адресу і порти, завжди є сполученими, плануються для запуску разом і запускаються у спільному контексті на одному вузлі.</p>
 
             <!--<p>Pods are the atomic unit on the Kubernetes platform. When we create a Deployment on Kubernetes, that Deployment creates Pods with containers inside them (as opposed to creating containers directly). Each Pod is tied to the Node where it is scheduled, and remains there until termination (according to restart policy) or deletion. In case of a Node failure, identical Pods are scheduled on other available Nodes in the cluster.</p>
             -->
-            <p>Под є неподільною одиницею платформи Kubernetes. Коли ви створюєте Deployment у Kubernetes, цей процес (Deployment) створює Поди вже з контейнерами всередині, на відміну від створення контейнерів окремо. Кожен Под прив’язаний до вузла, до якого його було розподілено, і лишається на ньому до зупинення роботи (згідно з політикою перезапуску) або видалення. У разі відмови вузла ідентичні Поди розподіляються по інших доступних вузлах кластера.</p>
+            <p>Под є неподільною одиницею платформи Kubernetes. Коли ви створюєте Deployment у Kubernetes, цей Deployment створює Поди вже з контейнерами всередині, на відміну від створення контейнерів окремо. Кожен Под прив'язаний до вузла, до якого його було розподілено, і лишається на ньому до припинення роботи (згідно з політикою перезапуску) або видалення. У разі відмови вузла ідентичні Поди розподіляються по інших доступних вузлах кластера.</p>
 
             </div>
             <div class="col-md-4">
@@ -124,7 +124,7 @@ weight: 10
                 <div class="content__box content__box_fill">
                     <!--<p><i> Containers should only be scheduled together in a single Pod if they are tightly coupled and need to share resources such as disk. </i></p>
                     -->
-                    <p><i> Контейнери розподіляються разом на один Под лише за умови, що вони щільно зв’язані і мають спільні ресурси, як наприклад, диск. </i></p>
+                    <p><i> Контейнери повинні бути разом в одному Поді, лише якщо вони щільно зв'язані і мають спільні ресурси, такі як диск. </i></p>
                 </div>
             </div>
         </div>
@@ -157,14 +157,14 @@ weight: 10
                     -->
                     <li><b>kubectl get</b> - перелічити ресурси</li>
                     <!--<li><b>kubectl describe</b> - show detailed information about a resource</li>
-                    -->
-                    <li><b>kubectl describe</b> - показати детальну інформацію про тип ресурсу</li>
+                    --> 
+                    <li><b>kubectl describe</b> - показати детальну інформацію про ресурс</li>
                     <!--<li><b>kubectl logs</b> - print the logs from a container in a pod</li>
                     -->
                     <li><b>kubectl logs</b> - вивести логи контейнера, розміщеного на Поді</li>
                     <!--<li><b>kubectl exec</b> - execute a command on a container in a pod</li>
                     -->
-                    <li><b>kubectl exec</b> - виконати команду в контейнері, розміщеному на Поді</li>
+                    <li><b>kubectl exec</b> - виконати команду в контейнері, розміщеному в Поді</li>
                 </ul>
 
                 <!--<p>You can use these commands to see when applications were deployed, what their current statuses are, where they are running and what their configurations are.</p>
