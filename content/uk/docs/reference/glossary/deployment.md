@@ -3,8 +3,9 @@ title: Deployment
 id: deployment
 date: 2018-04-12
 full_link: /docs/concepts/workloads/controllers/deployment/
-short_description: >
+# short_description: >
 #  An API object that manages a replicated application.
+short_description: >
   Об'єкт API, що керує реплікованим застосунком.
 
 aka: 
