@@ -20,4 +20,4 @@ tags:
 <!--more-->
 
 <!-- A Pod is typically set up to run a single primary container. It can also run optional sidecar containers that add supplementary features like logging. Pods are commonly managed by a {{< glossary_tooltip term_id="deployment" >}}. -->
-За типовими налаштуваннями, в одному Поді запускається один контейнер. У Поді також можуть бути запущені допоміжні контейнери, що забезпечують додаткову функціональність, як наприклад логинг. Управління Подами зазвичай здійснює {{< glossary_tooltip term_id="deployment" >}}.
+Як правило, в одному Поді запускається один контейнер. У Поді також можуть бути запущені допоміжні контейнери, що забезпечують додаткову функціональність, наприклад, логинг. Управління Подами зазвичай здійснює {{< glossary_tooltip term_id="deployment" >}}.
