@@ -33,7 +33,7 @@ other = "YouTube"
 
 [deprecation_warning]
 # other = " documentation is no longer actively maintained. The version you are currently viewing is a static snapshot. For up-to-date documentation, see the "
-other = " Документація більше не підтримується. Версія, яку ви зараз переглядаєте, є статичною. Для перегляду актуальної документації дивіться "
+other = " документація більше не підтримується. Версія, яку ви зараз переглядаєте, є статичною. Для перегляду актуальної документації дивіться "
 
 [deprecation_file_warning]
 # other = "Deprecated"
