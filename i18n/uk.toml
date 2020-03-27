@@ -81,7 +81,7 @@ other = "<< Назад"
 
 [layouts_blog_pager_next]
 # other = "Next >>"
-other = "Вперед >>"
+other = "Далі >>"
 
 [layouts_case_studies_list_tell]
 # other = "Tell your story"
