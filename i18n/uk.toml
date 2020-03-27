@@ -176,7 +176,7 @@ other = "Хочете зламати основну кодову базу Kubern
 
 [main_github_view_on]
 # other = "View On GitHub"
-other = "Подивитися в GitHub"
+other = "Переглянути у GitHub"
 
 [main_kubernetes_features]
 # other = "Kubernetes Features"
@@ -220,7 +220,7 @@ other = "Цілі"
 
 [prerequisites_heading]
 # other = "Before you begin"
-other = "До початку"
+other = "Перш ніж ви розпочнете"
 
 [ui_search_placeholder]
 # other = "Search"
@@ -228,11 +228,11 @@ other = "Пошук"
 
 [version_check_mustbe]
 # other = "Your Kubernetes server must be version "
-other = "Ваш Kubernetes сервер має бути версії "
+other = "Версія вашого Kubernetes сервера має бути "
 
 [version_check_mustbeorlater]
 # other = "Your Kubernetes server must be at or later than version "
-other = "Ваш Kubernetes сервер має бути версії або старший від версії "
+other = "Версія вашого Kubernetes сервера має дорівнювати або бути молодшою ніж "
 
 [version_check_tocheck]
 # other = "To check the version, enter "
