@@ -97,7 +97,7 @@ other = "Даний словник створений як повний стан
 
 [layouts_docs_glossary_deselect_all]
 # other = "Deselect all"
-other = "Відмінити вибір усіх тегів"
+other = "Очистити вибір"
 
 [layouts_docs_glossary_click_details_after]
 # other = "indicators below to get a longer explanation for any particular term."
