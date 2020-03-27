@@ -172,7 +172,7 @@ other = "Створити issue"
 
 [main_github_invite]
 # other = "Interested in hacking on the core Kubernetes code base?"
-other = "Хочете зламати ядро кодової бази Kubernetes?"
+other = "Хочете зламати основну кодову базу Kubernetes?"
 
 [main_github_view_on]
 # other = "View On GitHub"
