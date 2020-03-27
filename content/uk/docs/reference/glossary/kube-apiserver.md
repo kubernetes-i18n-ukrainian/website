@@ -26,4 +26,4 @@ API-сервер є компонентом {{< glossary_tooltip text="площи
 <!-- The main implementation of a Kubernetes API server is [kube-apiserver](/docs/reference/generated/kube-apiserver/). -->
 <!-- kube-apiserver is designed to scale horizontally&mdash;that is, it scales by deploying more instances. -->
 <!-- You can run several instances of kube-apiserver and balance traffic between those instances. -->
-Основною реалізацією Kubernetes API сервера є [kube-apiserver](/docs/reference/generated/kube-apiserver/). kube-apiserver підтримує горизонтальне масштабування, тобто масштабується за рахунок збільшення кількості інстансів. kube-apiserver можна запустити на декількох інстансах, збалансувавши між ними трафік.
+Основною реалізацією Kubernetes API-сервера є [kube-apiserver](/docs/reference/generated/kube-apiserver/). kube-apiserver підтримує горизонтальне масштабування, тобто масштабується за рахунок збільшення кількості інстансів. kube-apiserver можна запустити на декількох інстансах, збалансувавши між ними трафік.
