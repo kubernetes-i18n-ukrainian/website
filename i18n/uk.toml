@@ -121,7 +121,7 @@ other = "запропонувати покращення"
 
 [layouts_docs_partials_feedback_issue]
 # other = "Open an issue in the GitHub repo if you want to "
-other = "Відкрийте issue в репозиторії GitHub, якщо ви хочете "
+other = "Створіть issue в GitHub репозиторії, якщо ви хочете "
 
 [layouts_docs_partials_feedback_or]
 # other = "or"
