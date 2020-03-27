@@ -19,7 +19,7 @@ tags:
 {{< glossary_tooltip text="control plane" term_id="control-plane" >}} that exposes the Kubernetes API.
 The API server is the front end for the Kubernetes control plane.
 -->
-API сервер є компонентом {{< glossary_tooltip text="площини управління" term_id="control-plane" >}} Kubernetes, через який можна отримати доступ до API Kubernetes. API сервер є фронтендом площини управління Kubernetes.
+API-сервер є компонентом {{< glossary_tooltip text="площини управління" term_id="control-plane" >}} Kubernetes, через який можна отримати доступ до API Kubernetes. API-сервер є фронтендом площини управління Kubernetes.
 
 <!--more-->
 
