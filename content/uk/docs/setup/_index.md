@@ -30,11 +30,11 @@ card:
 
 <!--You can deploy a Kubernetes cluster on a local machine, cloud, on-prem datacenter; or choose a managed Kubernetes cluster. You can also create custom solutions across a wide range of cloud providers, or bare metal environments.
 -->
-Ви можете розгорнути кластер Kubernetes на робочому комп'ютері, у хмарі чи в локальному дата-центрі, або обрати керований кластер Kubernetes. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
+Ви можете розгорнути Kubernetes кластер на робочому комп'ютері, у хмарі чи в локальному дата-центрі, або обрати керований Kubernetes кластер. Також можна створити індивідуальні рішення на базі різних провайдерів хмарних сервісів або на звичайних серверах.
 
 <!--More simply, you can create a Kubernetes cluster in learning and production environments.
 -->
-Простіше кажучи, ви можете створити кластер Kubernetes у навчальному і в прод оточеннях.
+Простіше кажучи, ви можете створити Kubernetes кластер у навчальному і в прод оточеннях.
 
 {{% /capture %}}
 
@@ -66,15 +66,15 @@ card:
 
 <!--When evaluating a solution for a production environment, consider which aspects of operating a Kubernetes cluster (or _abstractions_) you want to manage yourself or offload to a provider.
 -->
-Обираючи рішення для проду, визначіться, якими з функціональних складових (або абстракцій) кластера Kubernetes ви хочете керувати самі, а управління якими - доручити провайдеру.
+Обираючи рішення для проду, визначіться, якими з функціональних складових (або абстракцій) Kubernetes кластера ви хочете керувати самі, а управління якими - доручити провайдеру.
 
 <!--Some possible abstractions of a Kubernetes cluster are {{< glossary_tooltip text="applications" term_id="applications" >}}, {{< glossary_tooltip text="data plane" term_id="data-plane" >}}, {{< glossary_tooltip text="control plane" term_id="control-plane" >}}, {{< glossary_tooltip text="cluster infrastructure" term_id="cluster-infrastructure" >}}, and {{< glossary_tooltip text="cluster operations" term_id="cluster-operations" >}}.
 -->
-У кластері Kubernetes можливі наступні абстракції: {{< glossary_tooltip text="застосунки" term_id="applications" >}}, {{< glossary_tooltip text="площина даних" term_id="data-plane" >}}, {{< glossary_tooltip text="площина управління" term_id="control-plane" >}}, {{< glossary_tooltip text="інфраструктура кластера" term_id="cluster-infrastructure" >}} та {{< glossary_tooltip text="операції з кластером" term_id="cluster-operations" >}}.
+У Kubernetes кластері можливі наступні абстракції: {{< glossary_tooltip text="застосунки" term_id="applications" >}}, {{< glossary_tooltip text="площина даних" term_id="data-plane" >}}, {{< glossary_tooltip text="площина управління" term_id="control-plane" >}}, {{< glossary_tooltip text="інфраструктура кластера" term_id="cluster-infrastructure" >}} та {{< glossary_tooltip text="операції з кластером" term_id="cluster-operations" >}}.
 
 <!--The following diagram lists the possible abstractions of a Kubernetes cluster and whether an abstraction is self-managed or managed by a provider.
 -->
-На діаграмі нижче показані можливі абстракції кластера Kubernetes із зазначенням, які з них потребують самостійного управління, а які можуть бути керовані провайдером.
+На діаграмі нижче показані можливі абстракції Kubernetes кластера із зазначенням, які з них потребують самостійного управління, а які можуть бути керовані провайдером.
 
 Рішення для прод оточення![Рішення для прод оточення](/images/docs/KubernetesSolutions.svg)
 
