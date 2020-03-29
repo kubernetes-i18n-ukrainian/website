@@ -156,7 +156,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--4. View cluster events:
 -->
-4. Переглянути події кластера:
+4. Перегляньте події кластера:
 
     ```shell
     kubectl get events
