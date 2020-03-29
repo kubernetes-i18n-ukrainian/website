@@ -7,7 +7,7 @@ full_link:
 # short_description: >
 #   The layer that provides capacity such as CPU, memory, network, and storage so that the containers can run and connect to a network.
 short_description: >
-  Шар, який надає контейнерам ресурси, такі як ЦП, пам'ять, мережа і сховище даних для того, щоб контейнери могли працювати і підключатися до мережі.
+  Шар, який надає контейнерам ресурси, такі як ЦПУ, пам'ять, мережа і сховище даних для того, щоб контейнери могли працювати і підключатися до мережі.
 
 aka:
 tags:
