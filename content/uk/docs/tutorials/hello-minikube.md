@@ -109,7 +109,7 @@ tutorial has only one Container. A Kubernetes
 Pod and restarts the Pod's Container if it terminates. Deployments are the
 recommended way to manage the creation and scaling of Pods.
 -->
-[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою адміністрування і роботи у мережі. У цьому навчальному матеріалі Под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан Поду і перезапускає контейнер Пода, якщо контейнер перестає працювати. Створювати і масштабувати Поди рекомендується за допомогою Deployment'ів.
+[*Под*](/docs/concepts/workloads/pods/pod/) у Kubernetes -- це група з одного або декількох контейнерів, що об'єднані разом з метою адміністрування і роботи у мережі. У цьому навчальному матеріалі Под має лише один контейнер. Kubernetes [*Deployment*](/docs/concepts/workloads/controllers/deployment/) перевіряє стан Пода і перезапускає контейнер Пода, якщо контейнер перестає працювати. Створювати і масштабувати Поди рекомендується за допомогою Deployment'ів.
 
 <!--1. Use the `kubectl create` command to create a Deployment that manages a Pod. The
 Pod runs a Container based on the provided Docker image.
@@ -183,7 +183,7 @@ Kubernetes cluster. To make the `hello-node` Container accessible from outside t
 Kubernetes virtual network, you have to expose the Pod as a
 Kubernetes [*Service*](/docs/concepts/services-networking/service/).
 -->
-За умовчанням, Под доступний лише за внутрішньою IP-адресою у межах Kubernetes кластера. Для того, щоб контейнер `hello-node` став доступним за межами віртуальної мережі Kubernetes, Под необхідно відкрити як Kubernetes [*Сервіс*](/docs/concepts/services-networking/service/).
+За умовчанням, Под доступний лише за внутрішньою IP-адресою у межах Kubernetes кластера. Для того, щоб контейнер `hello-node` став доступний за межами віртуальної мережі Kubernetes, Под необхідно відкрити як Kubernetes [*Сервіс*](/docs/concepts/services-networking/service/).
 
 <!--1. Expose the Pod to the public internet using the `kubectl expose` command:
 -->
