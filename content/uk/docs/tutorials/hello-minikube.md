@@ -164,7 +164,7 @@ Pod runs a Container based on the provided Docker image.
 
 <!--5. View the `kubectl` configuration:
 -->
-5. Переглянути конфігурацію `kubectl`:
+5. Перегляньте конфігурацію `kubectl`:
 
     ```shell
     kubectl config view
