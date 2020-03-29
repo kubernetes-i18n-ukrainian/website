@@ -156,7 +156,7 @@ other = "Допомогти проекту"
 
 [main_copyright_notice]
 # other = """The Linux Foundation &reg;. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our <a href="https://www.linuxfoundation.org/trademark-usage" class="light-text">Trademark Usage page</a>"""
-other = """The Linux Foundation &reg;. Всі права захищені. The Linux Foundation є зареєстрованою торговою маркою. Перелік торгових марок The Linux Foundation ви знайдете на нашій сторінці <a href="https://www.linuxfoundation.org/trademark-usage" class="light-text">Використання торгових марок</a>"""
+other = """The Linux Foundation &reg;. Всі права застережено. The Linux Foundation є зареєстрованою торговою маркою. Перелік торгових марок The Linux Foundation ви знайдете на нашій сторінці <a href="https://www.linuxfoundation.org/trademark-usage" class="light-text">Використання торгових марок</a>"""
 
 [main_documentation_license]
 # other = """The Kubernetes Authors | Documentation Distributed under <a href="https://git.k8s.io/website/LICENSE" class="light-text">CC BY 4.0</a>"""
@@ -180,7 +180,7 @@ other = "Переглянути у GitHub"
 
 [main_kubernetes_features]
 # other = "Kubernetes Features"
-other = "Функціональність Kubernetes"
+other = "Функціональні можливості Kubernetes"
 
 [main_kubeweekly_baseline]
 # other = "Interested in receiving the latest Kubernetes news? Sign up for KubeWeekly."
