@@ -105,7 +105,7 @@ other = "для отримання розширеного пояснення к�
 
 [layouts_docs_glossary_click_details_before]
 # other = "Click on the"
-other = "Натисність на значок"
+other = "Натисність на"
 
 [layouts_docs_glossary_filter]
 # other = "Filter terms according to their tags"
