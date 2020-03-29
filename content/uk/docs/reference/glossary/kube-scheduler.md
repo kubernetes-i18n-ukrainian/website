@@ -19,4 +19,4 @@ tags:
 
 <!--Factors taken into account for scheduling decisions include individual and collective resource requirements, hardware/software/policy constraints, affinity and anti-affinity specifications, data locality, inter-workload interference and deadlines.
 -->
-При виборі вузла враховуються наступні фактори: індивідуальна і колективна потреба у ресурсах, обмеження за апаратним/програмним забезпеченням і політиками, характеристики афінності та антиафінності, локальність даних, інтерференція між робочими навантаженнями і граничні терміни виконання.
+При виборі вузла враховуються наступні фактори: індивідуальна і колективна потреба у ресурсах, обмеження за апаратним/програмним забезпеченням і політиками, характеристики affinity і anti-affinity, локальність даних, інтерференція між робочими навантаженнями і граничні терміни виконання.
