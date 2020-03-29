@@ -1,5 +1,5 @@
 ---
-# title: API server
+# title: API-server
 title: API сервер
 id: kube-apiserver
 date: 2018-04-12
