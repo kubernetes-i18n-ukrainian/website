@@ -17,11 +17,11 @@ menu:
     post: >
       <p>Дізнайтеся про основи роботи з Kubernetes, використовуючи схеми, навчальну та довідкову документацію. Ви можете навіть <a href="/editdocs/" data-auto-burger-exclude>зробити свій внесок у документацію</a>!</p>
 overview: >
-  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнерізованими застосунками. Цей проект розробляється під егідою Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
+  Kubernetes - рушій оркестрації контейнерів з відкритим вихідним кодом для автоматичного розгортання, масштабування і управління контейнеризованими застосунками. Цей проект розробляється під егідою Cloud Native Computing Foundation (<a href="https://www.cncf.io/about">CNCF</a>).
 cards:
 - name: concepts
   title: "Розуміння основ"
-  description: "Дізнатися про Kubernetes і його фундаментальні концепції."
+  description: "Дізнайтеся про Kubernetes і його фундаментальні концепції."
   button: "Дізнатися про концепції"
   button_path: "/docs/concepts"
 - name: tutorials
