@@ -109,7 +109,7 @@ self-healing | самозцілення |
 self-restoring | самовідновлення |
 service | сервіс |
 service discovery | виявлення сервісу |
-source code | вихідний, або початковий код |
+source code | вихідний код |
 stateful app | застосунок зі станом |
 stateless app | застосунок без стану |
 task | завдання |
