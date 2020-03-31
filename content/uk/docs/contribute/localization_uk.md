@@ -55,7 +55,7 @@ Contributor | контриб'ютор, учасник проекту |
 Control Plane | площина управління |
 Controller | контролер |
 CPU | ЦПУ |
-Dashboard | дешборд |
+Dashboard | дашборд |
 Data Plane | площина даних |
 Default settings | типові налаштування |
 Default (by) | за умовчанням |
@@ -121,4 +121,3 @@ Workload | робоче навантаження |
 YAML | YAML |
 
 {{% /capture %}}
-
