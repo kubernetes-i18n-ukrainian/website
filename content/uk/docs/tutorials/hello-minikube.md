@@ -84,7 +84,7 @@ You can also follow this tutorial if you've installed [Minikube locally](/docs/t
 
 <!--2. Open the Kubernetes dashboard in a browser:
 -->
-2. Відкрийте Kubernetes dashboard у браузері:
+2. Відкрийте Kubernetes дешборд у браузері:
 
     ```shell
     minikube dashboard
