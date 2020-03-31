@@ -45,7 +45,7 @@ Build | збирати (процес) |
 Build | збирання (результат) |
 Cache | кеш |
 CLI | інтерфейс командного рядка |
-Cloud | хмарний провайдер |
+Cloud | хмара; хмарний провайдер |
 Containerized | контейнеризований |
 Continuous development | безперервна розробка |
 Continuous integration | безперервна інтеграція |
