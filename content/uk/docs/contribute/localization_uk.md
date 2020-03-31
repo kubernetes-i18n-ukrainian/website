@@ -38,86 +38,86 @@ anchors:
 
 English | Українська |
 --- | --- |
-Addon | розширення |
-Application | застосунок |
-Backend | бекенд |
-Build | збирати (процес) |
-Build | збирання (результат) |
-Cache | кеш |
+addon | розширення |
+application | застосунок |
+backend | бекенд |
+build | збирати (процес) |
+build | збирання (результат) |
+cache | кеш |
 CLI | інтерфейс командного рядка |
-Cloud | хмара; хмарний провайдер |
-Containerized | контейнеризований |
+cloud | хмара; хмарний провайдер |
+containerized | контейнеризований |
 Continuous development | безперервна розробка |
 Continuous integration | безперервна інтеграція |
 Continuous deployment | безперервне розгортання |
-Contribute | робити внесок (до проекту), допомагати (проекту) |
-Contributor | контриб'ютор, учасник проекту |
-Control Plane | площина управління |
-Controller | контролер |
+contribute | робити внесок (до проекту), допомагати (проекту) |
+contributor | контриб'ютор, учасник проекту |
+control plane | площина управління |
+controller | контролер |
 CPU | ЦПУ |
-Dashboard | дашборд |
-Data Plane | площина даних |
-Default settings | типові налаштування |
-Default (by) | за умовчанням |
+dashboard | дашборд |
+data plane | площина даних |
+default settings | типові налаштування |
+default (by) | за умовчанням |
 Deployment | Deployment |
-Deprecated | застарілий |
-Desired State | бажаний стан |
-Downtime | недоступність, простій |
-Ecosystem | сімейство проектів (екосистема) |
-Endpoint | кінцева точка |
-Expose (a service) | відкрити доступ (до сервісу) |
-Fail | відмовити |
-Feature | компонент |
-Framework | фреймворк |
-Frontend | фронтенд |
-Image | образ |
+deprecated | застарілий |
+desired state | бажаний стан |
+downtime | недоступність, простій |
+ecosystem | сімейство проектів (екосистема) |
+endpoint | кінцева точка |
+expose (a service) | відкрити доступ (до сервісу) |
+fail | відмовити |
+feature | компонент |
+framework | фреймворк |
+frontend | фронтенд |
+image | образ |
 Ingress | Ingress |
-Instance | інстанс |
-Issue | запит |
-Kube-proxy | kube-proxy |
-Kubelet | kubelet |
+instance | інстанс |
+issue | запит |
+kube-proxy | kube-proxy |
+kubelet | kubelet |
 Kubernetes features | функціональні можливості Kubernetes |
-Label | мітка |
-Lifecycle | життєвий цикл |
-Logging | логування |
-Maintenance | обслуговування |
-Master | master |
-Map | спроектувати, зіставити, встановити відповідність |
-Monitor | моніторити |
-Monitoring | моніторинг |
+label | мітка |
+lifecycle | життєвий цикл |
+logging | логування |
+maintenance | обслуговування |
+master | master |
+map | спроектувати, зіставити, встановити відповідність |
+monitor | моніторити |
+monitoring | моніторинг |
 Namespace | Namespace |
-Network Policy | мережева політика |
-Node | вузол |
-Orchestrate | оркеструвати |
-Output | вивід |
-Patch | патч |
+network policy | мережева політика |
+node | вузол |
+orchestrate | оркеструвати |
+output | вивід |
+patch | патч |
 Pod | Под |
-Production | прод |
-Pull Request | pull request |
-Release | реліз |
-Replica | репліка |
-Rollback | відкатування |
-Rolling update | послідовне оновлення |
-Rollout (new updates) | викатка (оновлень) |
-Run | запускати |
-Scale | масштабувати |
-Schedule | розподіляти (Поди по вузлах) |
-Scheduler | scheduler |
-Secret | секрет |
-Selector | селектор |
-Self-healing | самозцілення |
-Self-restoring | самовідновлення |
-Service | сервіс |
-Service discovery | виявлення сервісу |
-Source code | вихідний (початковий) код |
-Stateful app | застосунок зі станом |
-Stateless app | застосунок без стану |
-Task | завдання |
-Terminated | зупинений |
-Traffic | трафік |
+production | прод |
+pull request | pull request |
+release | реліз |
+replica | репліка |
+rollback | відкатування |
+rolling update | послідовне оновлення |
+rollout (new updates) | викатка (оновлень) |
+run | запускати |
+scale | масштабувати |
+schedule | розподіляти (Поди по вузлах) |
+scheduler | scheduler |
+secret | секрет |
+selector | селектор |
+self-healing | самозцілення |
+self-restoring | самовідновлення |
+service | сервіс |
+service discovery | виявлення сервісу |
+source code | вихідний, або початковий код |
+stateful app | застосунок зі станом |
+stateless app | застосунок без стану |
+task | завдання |
+terminated | зупинений |
+traffic | трафік |
 VM (virtual machine) | ВМ |
 Volume | Volume |
-Workload | робоче навантаження |
+workload | робоче навантаження |
 YAML | YAML |
 
 {{% /capture %}}
